@@ -39,7 +39,7 @@ const Bottommenu = () => {
           >
             <a
               target="_blank"
-              className={`fixed right-[310px] sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-emerald-900/80 shadow-md ${
+              className={`fixed right-[310px] sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-[#417D41] shadow-md ${
                 isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
               }`}
             >
@@ -63,7 +63,7 @@ const Bottommenu = () => {
           >
             <a
               target="_blank"
-              className={`fixed right-[250px] sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-emerald-900/80 shadow-md ${
+              className={`fixed right-[250px] sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-[#417D41] shadow-md ${
                 isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
               }`}
             >
@@ -87,7 +87,7 @@ const Bottommenu = () => {
           >
             <a
               target="_blank"
-              className={`fixed right-[190px] sm:hidden   bottom-0 bg-emerald-900/80 border-[1px] border-gray-200/90 shadow-md ${
+              className={`fixed right-[190px] sm:hidden   bottom-0 bg-[#417D41] border-[1px] border-gray-200/90 shadow-md ${
                 isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
               }`}
             >
@@ -111,7 +111,7 @@ const Bottommenu = () => {
           >
             <a
               target="_blank"
-              className={`fixed right-[130px] sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-emerald-900/80 shadow-md ${
+              className={`fixed right-[130px] sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-[#417D41] shadow-md ${
                 isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
               }`}
             >
@@ -135,7 +135,7 @@ const Bottommenu = () => {
           >
             <a
               target="_blank"
-              className={`fixed right-[70px] sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-emerald-900/80 shadow-md ${
+              className={`fixed right-[70px] sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-[#417D41] shadow-md ${
                 isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
               }`}
             >
@@ -159,7 +159,7 @@ const Bottommenu = () => {
           >
             <a
               target="_blank"
-              className={`fixed right-[10px]    sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-emerald-900/80 shadow-md ${
+              className={`fixed right-[10px]    sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-[#417D41] shadow-md ${
                 isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
               }`}
             >

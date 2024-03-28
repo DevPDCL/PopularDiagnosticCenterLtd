@@ -75,10 +75,10 @@ const Works = () => {
         <div className=" flex-row hidden md:block flex-wrap mb-10 gap-10">
           <div className="bg-[#F0FFF0] shadow-lg rounded-lg p-5 mx-auto w-full ">
             <div className="flex flex-col  flex-wrap max-w-screen-xl mx-auto  ">
-              <div className="w-auto  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
+              <div className="w-auto  border-l-[5px]  border-[#417D41] border-opacity-50 pl-2  text-start ml-3">
                 <h1 className="text-slate-900/50 font-ubuntu font-extrabold text-[28px]">
                   DISCOVER{" "}
-                  <span className="text-[#006642] font-ubuntu">POPULAR</span>
+                  <span className="text-[#417D41] font-ubuntu">POPULAR</span>
                 </h1>
                 <p className="text-gray-500 font-ubuntu text-[16px] font-medium">
                   Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd.
@@ -123,10 +123,10 @@ const Works = () => {
         <div className=" flex-col sm:hidden flex-wrap mb-10 gap-10">
           <div className="bg-[#F0FFF0]/5 shadow p-5 mx-auto w-full ">
             <div className="flex flex-col  flex-wrap max-w-screen-xl mx-auto  ">
-              <div className="w-full  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
+              <div className="w-full  border-l-[5px]  border-[#417D41] border-opacity-50 pl-2  text-start ml-3">
                 <h1 className="text-slate-900/50 font-ubuntu font-extrabold text-[28px]">
                   DISCOVER{" "}
-                  <span className="text-[#006642] font-ubuntu">POPULAR</span>
+                  <span className="text-[#417D41] font-ubuntu">POPULAR</span>
                 </h1>
                 <p className="text-gray-500 font-ubuntu text-[16px] font-medium">
                   Popular Diagnostic Centre Ltd. exists to provide a better

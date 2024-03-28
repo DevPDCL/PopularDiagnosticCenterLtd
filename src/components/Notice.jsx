@@ -57,7 +57,7 @@ className="w-auto h-auto rounded-md object-cover sm:w-[299px] opacity-95"
 </Popover>
 
 <div className="mt-0 p-5">
-<p className="text-[#006642] font-ubuntu text-[15px]">{noticeHead}</p>
+<p className="text-[#417D41] font-ubuntu text-[15px]">{noticeHead}</p>
 </div>
 
 </div>

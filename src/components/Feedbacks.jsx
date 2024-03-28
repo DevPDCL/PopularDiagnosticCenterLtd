@@ -15,7 +15,7 @@ const FeedbackCard = ({
 }) => (
   <div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className="grid md:grid-row-2 items-center justify-center sm:w-[550px] w-full mx-auto  md:gap-0 "
+    className="bg-[#F0FFF0] grid md:grid-row-2 items-center justify-center sm:w-[550px] w-full mx-auto rounded-xl shadow-xl md:gap-0 "
   >
     <div className=" m-1 p-10 bg-gray-100/5 shadow text-start">
       <div className="flex flex-wrap   max-w-7xl   ">
@@ -64,7 +64,7 @@ const FeedbackCard = ({
 
 const Feedbacks = () => {
   return (
-    <div className={` bg-none `}>
+    <div className={` bg-[#F5FFFA] `}>
       <h2 className="mt-[-100px] text-Start text-gray-900/50 font-bold mb-[20px] font-ubuntu text-[28px]">
         TESTIMONIALS
       </h2>

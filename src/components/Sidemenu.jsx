@@ -40,7 +40,7 @@ const Sidemenu = () => {
               >
                 <a
                   target="_blank"
-                  className={`fixed touch-pinch-zoom top-[220px] border-[1px] border-gray-200/90 right-0   bg-emerald-900/80 shadow-md ${
+                  className={`fixed touch-pinch-zoom top-[220px] border-[1px] border-gray-200/90 right-0   bg-[#417D41] shadow-md ${
                     isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
                   }`}
                 >
@@ -64,7 +64,7 @@ const Sidemenu = () => {
               >
                 <a
                   target="_blank"
-                  className={`fixed top-[270px] border-[1px] border-gray-200/90 right-0 bg-emerald-900/80 shadow-md ${
+                  className={`fixed top-[270px] border-[1px] border-gray-200/90 right-0 bg-[#417D41] shadow-md ${
                     isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
                   }`}
                 >
@@ -87,7 +87,7 @@ const Sidemenu = () => {
             >
               <a
                 target="_blank"
-                className={`fixed top-[320px] right-0 bg-emerald-900/80 border-[1px] border-gray-200/90 shadow-md ${
+                className={`fixed top-[320px] right-0 bg-[#417D41] border-[1px] border-gray-200/90 shadow-md ${
                   isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
                 }`}
               >
@@ -110,7 +110,7 @@ const Sidemenu = () => {
               >
                 <a
                   target="_blank"
-                  className={`fixed top-[370px]  border-[1px] border-gray-200/90 right-0 bg-emerald-900/80 shadow-md ${
+                  className={`fixed top-[370px]  border-[1px] border-gray-200/90 right-0 bg-[#417D41] shadow-md ${
                     isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
                   }`}
                 >
@@ -134,7 +134,7 @@ const Sidemenu = () => {
               >
                 <a
                   target="_blank"
-                  className={`fixed top-[420px]  border-[1px] border-gray-200/90 right-0 bg-emerald-900/80 shadow-md ${
+                  className={`fixed top-[420px]  border-[1px] border-gray-200/90 right-0 bg-[#417D41] shadow-md ${
                     isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
                   }`}
                 >
@@ -159,7 +159,7 @@ const Sidemenu = () => {
               >
                 <a
                   target="_blank"
-                  className={`fixed top-[470px]     border-[1px] border-gray-200/90 right-0 bg-emerald-900/80 shadow-md ${
+                  className={`fixed top-[470px]     border-[1px] border-gray-200/90 right-0 bg-[#417D41] shadow-md ${
                     isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
                   }`}
                 >

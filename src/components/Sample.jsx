@@ -12,7 +12,7 @@ import { useNavigate, Link } from "react-router-dom";
 
 function Sample() {
   return (
-    <div className="bg-[#e2f0e5] p-1">
+    <div className="bg-[#F5FFFA] p-1">
       <div className=" pt-0">
         <Card className="w-full max-w-[40rem] p-3 mx-auto flex-col">
           <CardBody
@@ -44,7 +44,7 @@ function Sample() {
         </Card>
       </div>
 
-      <div className="bg-[#e2f0e5] pt-3 pb-3">
+      <div className="bg-[#F5FFFA] pt-3 pb-3">
         <Card className="w-full max-w-[40rem] p-3 mx-auto flex-col">
           <CardBody
             shadow={false}
@@ -69,7 +69,7 @@ function Sample() {
         </Card>
       </div>
 
-      <div className="bg-[#e2f0e5]  pb-3">
+      <div className="bg-[#F5FFFA]  pb-3">
         <Card className="w-full max-w-[40rem] p-3 mx-auto flex-col">
           <CardBody
             shadow={false}
@@ -94,7 +94,7 @@ function Sample() {
         </Card>
       </div>
 
-      <div className="bg-[#e2f0e5] pb-3">
+      <div className="bg-[#F5FFFA] pb-3">
         <Card className="w-full max-w-[40rem] p-3 mx-auto flex-col">
           <CardBody
             shadow={false}
@@ -118,7 +118,7 @@ function Sample() {
           </CardBody>
         </Card>
 
-        <div className="bg-[#e2f0e5] pt-3 ">
+        <div className="bg-[#F5FFFA] pt-3 ">
           <Card className="w-full max-w-[40rem] p-3 mx-auto flex-col">
             <CardBody
               shadow={false}
@@ -140,7 +140,7 @@ function Sample() {
           </Card>
         </div>
       </div>
-      <div className="bg-[#e2f0e5]  ">
+      <div className="bg-[#F5FFFA]  ">
         <Card className="w-full max-w-[40rem] p-3 mx-auto flex-col">
           <CardBody
             shadow={false}
@@ -166,7 +166,7 @@ function Sample() {
         </Card>
       </div>
 
-      <div className="bg-[#e2f0e5] pt-3 pb-3">
+      <div className="bg-[#F5FFFA] pt-3 pb-3">
         <Card className="w-full max-w-[40rem] p-3 mx-auto flex-col">
           <CardBody
             shadow={false}
@@ -193,25 +193,25 @@ function Sample() {
           </CardBody>
         </Card>
       </div>
-      <div className="flex max-w-[40rem]  bg-[#e2f0e5] pb-3 mx-auto">
+      <div className="flex max-w-[40rem]  bg-[#F5FFFA] pb-3 mx-auto">
         <Link to="/">
-          <p className=" pt-3 text-[15px] me-auto text-[#006642] font-bold font-ubuntu">
+          <p className=" pt-3 text-[15px] me-auto text-[#417D41] font-bold font-ubuntu">
             Go Back
           </p>
         </Link>
 
-        <p className=" pt-3 text-[15px] mx-auto text-[#006642] font-bold font-ubuntu">
+        <p className=" pt-3 text-[15px] mx-auto text-[#417D41] font-bold font-ubuntu">
           Clear form
         </p>
-        <Button className="bg-[#006642] ms-auto">Submit</Button>
+        <Button className="bg-[#417D41] ms-auto">Submit</Button>
       </div>
-      <div className="flex max-w-[40rem]  bg-[#e2f0e5] pb-3 mx-auto">
+      <div className="flex max-w-[40rem]  bg-[#F5FFFA] pb-3 mx-auto">
         <p className=" pt-0 text-[11px] mx-auto text-[black] font-small font-ubuntu">
           This form was created inside of Popular Pharmaceuticals Ltd.. Report
           Abuse
         </p>
       </div>
-      <div className="flex max-w-[40rem]  bg-[#e2f0e5] pb-3 mx-auto">
+      <div className="flex max-w-[40rem]  bg-[#F5FFFA] pb-3 mx-auto">
         <p className=" pt-0 text-[24px] mx-auto text-gray-900/50 font-bold font-ubuntu">
           PDCL Forms
         </p>

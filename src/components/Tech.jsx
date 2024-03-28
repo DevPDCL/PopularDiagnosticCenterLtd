@@ -33,7 +33,7 @@ const Tech = ({ message, children }) => {
   return (
     <>
       <footer className="flex flex-row flex-wrap mt-10  justify-center">
-        <div className="bg-emerald-900/80   opacity-90 mx-auto w-full ">
+        <div className="bg-[#417D41]   opacity-90 mx-auto w-full ">
           <Sidemenu />
           <Bottommenu />
           <form className="max-w-screen-xl mx-auto  items-center justify-center">
@@ -120,7 +120,7 @@ const Tech = ({ message, children }) => {
             </div>
           </form>
         </div>
-        <div className="bg-emerald-900/80  shadow-lg  opacity-90 mx-auto w-full ">
+        <div className="bg-[#417D41]  shadow-lg  opacity-90 mx-auto w-full ">
           <div className=" flex mx-auto p-3 justify-evenly max-w-screen-xl flex-wrap "></div>
           <img
             src={img}

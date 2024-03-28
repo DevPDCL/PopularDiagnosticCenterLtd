@@ -12,14 +12,14 @@ import { Input, Checkbox, Button } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
 function Contact() {
   return (
-    <div className="bg-white">
+    <div className="bg-[#F5FFFA]">
       <Nav />
 
       <Navbar />
       <Sidemenu />
       <Bottommenu />
       <div
-        className={`justify-center  items-center p-2 text-center flex flex-col  text-white`}
+        className={`justify-center  items-center p-2 text-center flex flex-col  text-[#F5FFFA]`}
       >
         <div className=" flex-col mt-[200px] max-w-7xl container  block items-stretch md:flex-row    mx-auto">
           <Card
@@ -28,20 +28,20 @@ function Contact() {
           >
             <form className="mt-8 mb-2 w-full p-5 max-w-7xl  sm:w-300">
               <div className="mb-1 flex flex-col gap-6">
-                <h5 className="text-[44px] p-5 font-ubuntu font-bold text-[#006642]">
+                <h5 className="text-[44px] p-5 font-ubuntu font-bold text-[#417D41]">
                   Send us a message
                 </h5>
                 <Typography
                   variant="h6"
                   color="blue-gray"
-                  className="-mb-3 text-[#006642] text-start"
+                  className="-mb-3 text-[#417D41] text-start"
                 >
                   Your Email
                 </Typography>
                 <Input
                   size="lg"
                   placeholder="name@mail.com"
-                  className=" !border-t-blue-gray-200 text-[#006642] p-2 focus:!border-t-gray-900"
+                  className=" !border-t-blue-gray-200 text-[#417D41] p-2 focus:!border-t-gray-900"
                   labelProps={{
                     className: "before:content-none after:content-none",
                   }}
@@ -49,14 +49,14 @@ function Contact() {
                 <Typography
                   variant="h6"
                   color="blue-gray"
-                  className="-mb-3 text-[#006642] text-start"
+                  className="-mb-3 text-[#417D41] text-start"
                 >
                   Your FullName
                 </Typography>
                 <Input
                   size="lg"
                   placeholder="Name"
-                  className=" !border-t-blue-gray-200 text-[#006642] p-2 focus:!border-t-gray-900"
+                  className=" !border-t-blue-gray-200 text-[#417D41] p-2 focus:!border-t-gray-900"
                   labelProps={{
                     className: "before:content-none after:content-none",
                   }}
@@ -64,14 +64,14 @@ function Contact() {
                 <Typography
                   variant="h6"
                   color="blue-gray"
-                  className="-mb-3 text-[#006642] text-start"
+                  className="-mb-3 text-[#417D41] text-start"
                 >
                   Your Mobile
                 </Typography>
                 <Input
                   size="lg"
                   placeholder="01712345678"
-                  className=" !border-t-blue-gray-200 text-[#006642] p-2 focus:!border-t-gray-900"
+                  className=" !border-t-blue-gray-200 text-[#417D41] p-2 focus:!border-t-gray-900"
                   labelProps={{
                     className: "before:content-none after:content-none",
                   }}
@@ -79,14 +79,14 @@ function Contact() {
                 <Typography
                   variant="h6"
                   color="blue-gray"
-                  className="-mb-3 text-[#006642] text-start"
+                  className="-mb-3 text-[#417D41] text-start"
                 >
                   Your Messages
                 </Typography>
                 <Input
                   size="lg"
                   placeholder="Write Support Queries"
-                  className=" !border-t-blue-gray-200 text-[#006642] p-2 focus:!border-t-gray-900"
+                  className=" !border-t-blue-gray-200 text-[#417D41] p-2 focus:!border-t-gray-900"
                   labelProps={{
                     className: "before:content-none after:content-none",
                   }}
@@ -94,7 +94,7 @@ function Contact() {
               </div>
 
               <Link to="/report">
-                <Button className="mt-6 bg-[#006642] " fullWidth>
+                <Button className="mt-6 bg-[#417D41] " fullWidth>
                   SEND MESSAGES
                 </Button>
               </Link>

@@ -83,7 +83,7 @@ const About = () => {
   };
 
   return (
-    <div className="bg-white">
+    <div className="bg-[#F5FFFA]">
       <Nav />
       <Navbar />
       <Sidemenu />
@@ -122,7 +122,7 @@ const About = () => {
         ))}
       </div>
 
-      <div>
+      {/* <div>
         <h1 className="bg-black text-white font-bold text-center text-[24px]">
           {" "}
           Test Price Searching{" "}
@@ -147,12 +147,12 @@ const About = () => {
             onChange={handleSearchChange}
           />
           {filteredServices.length > 0 && (
-            <div>
+            <div> */}
               {/* Render the header */}
-              <ListHeader />
+              {/* <ListHeader /> */}
 
               {/* List */}
-              <AutoSizer>
+              {/* <AutoSizer>
                 {({ width }) => (
                   <List
                     height={250}
@@ -167,8 +167,8 @@ const About = () => {
             </div>
           )}
         </div>
-      </div>
-
+      </div> */}
+ 
       <Tech />
     </div>
   );
