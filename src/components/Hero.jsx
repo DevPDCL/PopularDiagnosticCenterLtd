@@ -253,10 +253,10 @@ const handleClick1 = () => {
                   <a
                     href="#"
                     data-tabs-target="styled-profile"
-                    className={`inline-block w-full p-3 rounded text-gray-900 bg-[#00664a] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-3 rounded text-gray-900 bg-[#417D41] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile"
                         ? "bg-[#ffffff]"
-                        : "bg-[#00664a]"
+                        : "bg-[#417D41]"
                     } "active focus:outline-none dark:bg-gray-700 dark:text-white"
                         : ""
                     `}
@@ -270,10 +270,10 @@ const handleClick1 = () => {
                   <a
                     href="#"
                     data-tabs-target="styled-profile1"
-                    className={`inline-block w-full p-3 rounded text-gray-900 bg-[#00664a] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-3 rounded  bg-[#417D41] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile1"
-                        ? "bg-[#ffffff]"
-                        : "bg-[#00664a]"
+                        ? "bg-[#ffffff] text-PDCL-green font-bold"
+                        : "bg-[#417D41] text-[#ffffff]"
                     } "active focus:outline-none dark:bg-gray-700 dark:text-white"
                         : ""
                     `}
@@ -287,10 +287,10 @@ const handleClick1 = () => {
                   <a
                     href="#"
                     data-tabs-target="styled-profile2"
-                    className={`inline-block w-full p-3 rounded text-gray-900 bg-[#00664a] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-3 rounded text-gray-900 bg-[#417D41] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile2"
                         ? "bg-[#ffffff]"
-                        : "bg-[#00664a]"
+                        : "bg-[#417D41]"
                     } "active focus:outline-none dark:bg-gray-700 dark:text-white"
                         : ""
                     `}
@@ -521,7 +521,7 @@ const handleClick1 = () => {
                                         />
                                         <button
                                           type="submit"
-                                          class="text-white absolute  end-0 bottom-1 top-1 m-1 bg-[#00664a] hover:bg-blue-800  font-medium rounded text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700"
+                                          class="text-white absolute  end-0 bottom-1 top-1 m-1 bg-[#417D41] hover:bg-blue-800  font-medium rounded text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700"
                                         >
                                           Send
                                         </button>
@@ -542,7 +542,7 @@ const handleClick1 = () => {
                                         />
                                         <button
                                           type="submit"
-                                          class="text-white absolute end-0  bottom-0 top-0 m-1 bg-[#00664a] hover:bg-blue-800  font-medium rounded text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 "
+                                          class="text-white absolute end-0  bottom-0 top-0 m-1 bg-[#417D41] hover:bg-blue-800  font-medium rounded text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 "
                                         >
                                           Send
                                         </button>{" "}

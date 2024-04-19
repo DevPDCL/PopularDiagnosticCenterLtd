@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="bg-white ">
+      <header className="bg-[#F5FFFA] ">
         <nav
           className={`${styles.paddingX} w-full flex h-[80px] items-center shadow-2xl fixed top-[30px] z-20 bg-[#F5FFFA]`}
           aria-label="Global"
@@ -73,7 +73,7 @@ const Navbar = () => {
                         activeClassName="navbar__link--active"
                       >
                         {" "}
-                        <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                        <p className="text-PDCL-green items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                           <a href="">
                             {" "}
                             <span
@@ -94,7 +94,7 @@ const Navbar = () => {
                       {" "}
                       <Link to="/health">
                         {" "}
-                        <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                        <p className="text-PDCL-green items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                           <a href="">
                             {" "}
                             <span className="pl-1 text-[14px] font-medium font-ubuntu hidden md:block">
@@ -112,7 +112,7 @@ const Navbar = () => {
                       {" "}
                       <Link to="/doctorsearch">
                         {" "}
-                        <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                        <p className="text-PDCL-green items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                           <a href="">
                             {" "}
                             <span className="pl-1 text-[14px] font-medium font-ubuntu hidden md:block">
@@ -131,7 +131,7 @@ const Navbar = () => {
                         <a>
                           <Link to="/branch">
                             {" "}
-                            <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                            <p className="text-PDCL-green items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                               <span className="pl-1 text-[14px] font-medium font-ubuntu hidden md:block cursor-pointer">
                                 Branches
                               </span>
@@ -147,7 +147,7 @@ const Navbar = () => {
                   <div className="flex flex-row ">
                     <a>
                       <Link to="/notice">
-                        <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                        <p className="text-PDCL-green items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                           <a href="">
                             <span className="pl-1 text-[14px] font-medium font-ubuntu hidden md:block">
                               Notice
@@ -163,7 +163,7 @@ const Navbar = () => {
                     <a>
                       {" "}
                       <Link to="/contact">
-                        <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                        <p className="text-PDCL-green items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                           <a href="">
                             <span className="pl-1 text-[14px] font-medium font-ubuntu hidden md:block">
                               Contact
@@ -181,7 +181,7 @@ const Navbar = () => {
                         <p
                           type="button"
                           data-dropdown-toggle="language-dropdown-menu"
-                          className="ms-auto text-[#006642] inline-flex items-end font-ubuntu font-medium justify-end text-sm rounded-lg cursor-pointer"
+                          className="ms-auto text-PDCL-green inline-flex items-end font-ubuntu font-medium justify-end text-sm rounded-lg cursor-pointer"
                         >
                           About Us
                         </p>
@@ -195,7 +195,7 @@ const Navbar = () => {
                               data-dropdown-toggle="language-dropdown-menu"
                               className="ms-auto items-center font-ubuntu justify-center px-4 py-2 text-sm rounded-lg cursor-pointer"
                             >
-                              <span className="text-emerald-900/80 hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
+                              <span className="text-PDCL-green hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
                                 Objectives & Goals
                               </span>
                             </p>
@@ -209,7 +209,7 @@ const Navbar = () => {
                               data-dropdown-toggle="language-dropdown-menu"
                               className="ms-auto  items-center font-ubuntu justify-center px-4 py-2 text-sm rounded-lg cursor-pointer"
                             >
-                              <span className="text-emerald-900/80 hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
+                              <span className="text-PDCL-green hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
                                 Message from Chairman
                               </span>
                             </p>
@@ -223,7 +223,7 @@ const Navbar = () => {
                               data-dropdown-toggle="language-dropdown-menu"
                               className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm rounded-lg cursor-pointer"
                             >
-                              <span className="text-emerald-900/80 hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
+                              <span className="text-PDCL-green hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
                                 Message from Managing Director
                               </span>
                             </p>
@@ -238,7 +238,7 @@ const Navbar = () => {
                               data-dropdown-toggle="language-dropdown-menu"
                               className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm rounded-lg cursor-pointer"
                             >
-                              <span className="text-emerald-900/80 hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
+                              <span className="text-PDCL-green hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
                                 Management Team
                               </span>
                             </p>
@@ -253,7 +253,7 @@ const Navbar = () => {
                               data-dropdown-toggle="language-dropdown-menu"
                               className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm rounded-lg cursor-pointer"
                             >
-                              <span className="text-emerald-900/80 hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
+                              <span className="text-PDCL-green hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
                                 Our Technologies
                               </span>
                             </p>
@@ -268,7 +268,7 @@ const Navbar = () => {
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <Link to="/patient">
                 <svg
-                  fill="#006642"
+                  fill="#417D41"
                   width="30px"
                   height="30px"
                   viewBox="0 0 32 32"
@@ -326,7 +326,7 @@ const Navbar = () => {
                             <p className="text-white me-auto items-start flex flex-row text-[14px] font-medium font-ubuntu">
                               <a href="">
                                 {" "}
-                                <span className=" me-auto text-[#006642] text-[14px] font-medium font-ubuntu ">
+                                <span className=" me-auto text-PDCL-green text-[14px] font-medium font-ubuntu ">
                                   Pataint Portal
                                 </span>
                               </a>
@@ -344,7 +344,7 @@ const Navbar = () => {
                             <p className="text-white me-auto items-start flex flex-row text-[14px] font-medium font-ubuntu">
                               <a href="">
                                 {" "}
-                                <span className="me-auto text-[#006642] text-[14px] font-medium font-ubuntu">
+                                <span className="me-auto text-PDCL-green text-[14px] font-medium font-ubuntu">
                                   Packages
                                 </span>
                               </a>
@@ -362,7 +362,7 @@ const Navbar = () => {
                             <p className="text-white me-auto items-start flex flex-row text-[14px] font-medium font-ubuntu">
                               <a href="">
                                 {" "}
-                                <span className="text-[14px] text-[#006642] font-medium font-ubuntu ">
+                                <span className="text-[14px] text-PDCL-green font-medium font-ubuntu ">
                                   Doctors
                                 </span>
                               </a>
@@ -380,7 +380,7 @@ const Navbar = () => {
                             <p className="text-white me-auto items-start flex flex-row text-[14px] font-medium font-ubuntu">
                               <a href="">
                                 {" "}
-                                <span className="text-[14px] text-[#006642] font-medium font-ubuntu ">
+                                <span className="text-[14px] text-PDCL-green font-medium font-ubuntu ">
                                   Branches
                                 </span>
                               </a>
@@ -397,7 +397,7 @@ const Navbar = () => {
                           <Link to="/notice">
                             <p className="text-white items-center flex flex-row text-[14px] font-medium font-ubuntu">
                               <a href="">
-                                <span className="text-[14px] text-[#006642] font-medium font-ubuntu ">
+                                <span className="text-[14px] text-PDCL-green font-medium font-ubuntu ">
                                   Notice
                                 </span>
                               </a>
@@ -413,7 +413,7 @@ const Navbar = () => {
                           <Link to="/contact">
                             <p className="text-white items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                               <a href="">
-                                <span className="text-[14px] text-[#006642] font-medium font-ubuntu ">
+                                <span className="text-[14px] text-PDCL-green font-medium font-ubuntu ">
                                   Contact
                                 </span>
                               </a>
@@ -429,7 +429,7 @@ const Navbar = () => {
                           <Link to="/about">
                             <p className="text-white items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                               <a href="">
-                                <span className="text-[14px] text-[#006642] font-medium font-ubuntu ">
+                                <span className="text-[14px] text-PDCL-green font-medium font-ubuntu ">
                                   About Us
                                 </span>
                               </a>
@@ -445,7 +445,7 @@ const Navbar = () => {
                           <Link to="/goals">
                             <p className="text-white items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                               <a href="">
-                                <span className="text-[14px] pl-10 text-[#006642] font-medium font-ubuntu ">
+                                <span className="text-[14px] pl-10 text-PDCL-green font-medium font-ubuntu ">
                                   Objectives & Goals
                                 </span>
                               </a>
@@ -461,7 +461,7 @@ const Navbar = () => {
                           <Link to="/chairman">
                             <p className="text-white items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                               <a href="">
-                                <span className="text-[14px] pl-10 text-[#006642] font-medium font-ubuntu ">
+                                <span className="text-[14px] pl-10 text-PDCL-green font-medium font-ubuntu ">
                                   Message from Chairman
                                 </span>
                               </a>
@@ -477,7 +477,7 @@ const Navbar = () => {
                           <Link to="/director">
                             <p className="text-white items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                               <a href="">
-                                <span className="text-[14px] pl-10 text-[#006642] font-medium font-ubuntu ">
+                                <span className="text-[14px] pl-10 text-PDCL-green font-medium font-ubuntu ">
                                   Message from Director
                                 </span>
                               </a>
@@ -494,7 +494,7 @@ const Navbar = () => {
                           <Link to="/about">
                             <p className="text-white items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                               <a href="">
-                                <span className="text-[14px] text-[#006642] pl-10 font-medium font-ubuntu ">
+                                <span className="text-[14px] text-PDCL-green pl-10 font-medium font-ubuntu ">
                                   Management Team
                                 </span>
                               </a>
@@ -514,7 +514,7 @@ const Navbar = () => {
                           <Link to="/tech">
                             <p className="text-white items-center flex flex-row text-[14px]  font-medium font-ubuntu">
                               <a href="">
-                                <span className="text-[14px] text-[#006642] pl-10 font-medium font-ubuntu ">
+                                <span className="text-[14px] text-PDCL-green pl-10 font-medium font-ubuntu ">
                                   Our Technologies
                                 </span>
                               </a>

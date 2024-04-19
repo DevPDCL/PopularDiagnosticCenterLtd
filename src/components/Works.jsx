@@ -106,14 +106,26 @@ const Works = () => {
   return (
     <>
       <div className="fontFamily-ubuntu custom-gradient rounded-2xl shadow-top-2xl">
-        <div className="overflow-hidden  mt-[-140px] py-24 sm:py-32">
+        <div className="mt-[-140px] py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto grid max-w-2xl grid-rows-1 rounded-2xl shadow-2xl mt-[-130px] bg-[#D9EED8]  p-5 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-rows-1">
+            <div className="mx-auto grid max-w-2xl grid-rows-1 border-[#417D41] border-[4px] rounded-2xl shadow-2xl mt-[-130px] pt-5 bg-[#B2D8B2] gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-rows-1">
               <div className="lg:pr-8 lg:pt-4">
+              <div className="w-full border-l-[5px] border-[#417D41] px-10 border-opacity-50 pl-2 text-start ml-3">
+               <h1 className="text-slate-900/50 font-ubuntu font-extrabold text-[28px]">
+                 DISCOVER{" "}
+                 <span className="text-[#417D41] font-ubuntu">POPULAR</span>
+               </h1>
+               <p className="text-gray-700 font-ubuntu text-[16px] font-medium">
+                 Popular Diagnostic Centre Ltd. exists to provide a better
+                 patient experience. We are a one-stop-shop for your health,
+                 offering caring doctors, world-class diagnostics and much more
+                 world-class diagnostics and much more.
+               </p>
+             </div>
                 <div className="flex flex-wrap items-center justify-center mx-auto ">
                   <div className="flex flex-col items-center  mx-auto">
                     <div className="p-5 items-center mx-auto text-center">
-                      <h6 className="text-[#00A66C]  font-bold font-ubuntu text-[60px]">
+                      <h6 className="text-[#417D41]  font-bold font-ubuntu text-[60px]">
                         <Number n={27} />
                       </h6>
                       <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
@@ -123,7 +135,7 @@ const Works = () => {
                   </div>
                   <div className="flex items-center flex-col mx-auto ml-20">
                     <div className="p-5 items-center mx-auto text-center">
-                      <h6 className="text-[#00A66C] flex flex-row font-bold font-ubuntu text-[60px]">
+                      <h6 className="text-[#417D41] flex flex-row font-bold font-ubuntu text-[60px]">
                         <Number n={5} />
                         <span>k+</span>
                       </h6>
@@ -134,7 +146,7 @@ const Works = () => {
                   </div>
                   <div className="flex flex-col items-center mx-auto ml-20">
                     <div className="p-5 items-center mx-auto text-center">
-                      <h6 className="text-[#00A66C] flex flex-row font-bold font-ubuntu text-[60px]">
+                      <h6 className="text-[#417D41] flex flex-row font-bold font-ubuntu text-[60px]">
                         <Number n={27} />
                         <span>k+</span>
                       </h6>
