@@ -1,20 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { styles } from "../styles";
-import { BallCanvas } from "./canvas";
-import { SectionWrapper } from "../hoc";
-import { technologies } from "../constants";
-import img from "../assets/link.jpg";
-import back from "../assets/back.jpg";
-import { useNavigate, Link } from "react-router-dom";
-import { healh, dical, cover, arrow } from "../assets";
+import { Link } from "react-router-dom";
 import { Tooltip } from "@material-tailwind/react";
 import "./tabs.css";
 
-import {
-  Popover,
-  PopoverHandler,
-  PopoverContent,
-} from "@material-tailwind/react";
 const Sidemenu = () => {
   const [isVisible, setIsVisible] = useState(true);
 
@@ -32,7 +20,7 @@ const Sidemenu = () => {
       <div>
         <div className="hidden md:block">
           <div>
-            <Link to="/modal">
+            <Link to="/branch" target="_blank" rel="noopener noreferrer">
               <Tooltip
                 className="bg-gray-900/50  p-3 hover:cursor-pointer font-extrabold rounded-none"
                 content="Hotline"
@@ -40,7 +28,7 @@ const Sidemenu = () => {
               >
                 <a
                   target="_blank"
-                  className={`fixed touch-pinch-zoom top-[220px] border-[1px] border-gray-200/90 right-0   bg-[#417D41] shadow-md ${
+                  className={`fixed touch-pinch-zoom top-[220px] border-[1px] border-gray-200/90 right-0   bg-emerald-900/80 shadow-md ${
                     isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
                   }`}
                 >
@@ -56,7 +44,7 @@ const Sidemenu = () => {
               </Tooltip>
             </Link>
 
-            <Link to="/sample">
+            <Link to="/sample" target="_blank" rel="noopener noreferrer">
               <Tooltip
                 className="bg-gray-900/50  p-3 hover:cursor-pointer font-extrabold rounded-none"
                 content="Sample Collection"
@@ -64,7 +52,7 @@ const Sidemenu = () => {
               >
                 <a
                   target="_blank"
-                  className={`fixed top-[270px] border-[1px] border-gray-200/90 right-0 bg-[#417D41] shadow-md ${
+                  className={`fixed top-[270px] border-[1px] border-gray-200/90 right-0 bg-emerald-900/80 shadow-md ${
                     isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
                   }`}
                 >
@@ -87,7 +75,7 @@ const Sidemenu = () => {
             >
               <a
                 target="_blank"
-                className={`fixed top-[320px] right-0 bg-[#417D41] border-[1px] border-gray-200/90 shadow-md ${
+                className={`fixed top-[320px] right-0 bg-emerald-900/80 border-[1px] border-gray-200/90 shadow-md ${
                   isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
                 }`}
               >
@@ -102,7 +90,7 @@ const Sidemenu = () => {
               </a>
             </Tooltip>
 
-            <Link to="/report">
+            <Link to="/patient" target="_blank" rel="noopener noreferrer">
               <Tooltip
                 className="bg-gray-900/50  p-3 hover:cursor-pointer font-extrabold rounded-none"
                 content="Report Download"
@@ -110,7 +98,7 @@ const Sidemenu = () => {
               >
                 <a
                   target="_blank"
-                  className={`fixed top-[370px]  border-[1px] border-gray-200/90 right-0 bg-[#417D41] shadow-md ${
+                  className={`fixed top-[370px]  border-[1px] border-gray-200/90 right-0 bg-emerald-900/80 shadow-md ${
                     isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
                   }`}
                 >
@@ -126,7 +114,7 @@ const Sidemenu = () => {
               </Tooltip>
             </Link>
 
-            <Link to="/complain">
+            <Link to="/complain" target="_blank" rel="noopener noreferrer">
               <Tooltip
                 className="bg-gray-900/50  p-3 hover:cursor-pointer font-extrabold rounded-none"
                 content="Complain Submission"
@@ -134,7 +122,7 @@ const Sidemenu = () => {
               >
                 <a
                   target="_blank"
-                  className={`fixed top-[420px]  border-[1px] border-gray-200/90 right-0 bg-[#417D41] shadow-md ${
+                  className={`fixed top-[420px]  border-[1px] border-gray-200/90 right-0 bg-emerald-900/80 shadow-md ${
                     isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
                   }`}
                 >
@@ -159,7 +147,7 @@ const Sidemenu = () => {
               >
                 <a
                   target="_blank"
-                  className={`fixed top-[470px]     border-[1px] border-gray-200/90 right-0 bg-[#417D41] shadow-md ${
+                  className={`fixed top-[470px]     border-[1px] border-gray-200/90 right-0 bg-emerald-900/80 shadow-md ${
                     isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
                   }`}
                 >

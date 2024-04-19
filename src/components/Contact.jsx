@@ -1,13 +1,7 @@
 import React from "react";
 import { Nav, Navbar, Sidemenu, Bottommenu, Tech } from "../components";
-import { motion } from "framer-motion";
-import { styles } from "../styles";
-import { printer, downloads } from "../assets";
-import { SectionWrapper } from "../hoc";
-import { dhan } from "../assets";
-import { fadeIn, textVariant } from "../utils/motion";
 import { Card, Typography } from "@material-tailwind/react";
-import { Input, Checkbox, Button } from "@material-tailwind/react";
+import { Input, Button } from "@material-tailwind/react";
 
 import { Link } from "react-router-dom";
 function Contact() {
@@ -18,30 +12,53 @@ function Contact() {
       <Navbar />
       <Sidemenu />
       <Bottommenu />
+
       <div
-        className={`justify-center  items-center p-2 text-center flex flex-col  text-[#F5FFFA]`}
+        className={`inset-0 justify-center pt-[150px] items-center mb-[20px]   text-center flex flex-wrap  text-white`}
       >
-        <div className=" flex-col mt-[200px] max-w-7xl container  block items-stretch md:flex-row    mx-auto">
+        <div className="max-w-7xl">
+          <div className=" p-10  text-start">
+            <h2 className="mb-6  font-bold font-ubuntu text-center  text-[36px] uppercase text-gray-900 dark:text-white">
+              Contact Address
+            </h2>
+
+            <p className="mb-4 text-center text-[24px]  text-gray-900">
+              House #16, Road # 2, Dhanmondi R/A, Dhaka-1205, Bangladesh
+            </p>
+
+            <p className="mb-4 text-center text-[24px]  text-gray-900">
+              E-mail : info@populardiagnostic.com
+            </p>
+            <p className="mb-4 text-center text-[24px]  text-gray-900">
+              Phone : 09666 787801
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className={`justify-center  items-center p-2 text-center flex flex-col  text-white`}
+      >
+        <div className=" flex-col  max-w-7xl container sm:w-[80%] block items-stretch md:flex-row    mx-auto">
           <Card
-            className="mx-auto w-full bg-gray-100-5 rounded-[10px] max-w-7xl"
+            className="mx-auto w-full bg-gray-100/5 mt-[40px] shadow-2xl  rounded-[10px] max-w-7xl"
             shadow={true}
           >
-            <form className="mt-8 mb-2 w-full p-5 max-w-7xl  sm:w-300">
+            <form className="mt-1 mb-2 w-full p-5 max-w-7xl  sm:w-300">
               <div className="mb-1 flex flex-col gap-6">
-                <h5 className="text-[44px] p-5 font-ubuntu font-bold text-[#417D41]">
+                <h5 className="text-[44px] p-5 font-ubuntu font-bold text-[#006642]">
                   Send us a message
                 </h5>
                 <Typography
                   variant="h6"
                   color="blue-gray"
-                  className="-mb-3 text-[#417D41] text-start"
+                  className="-mb-3 text-[#006642] text-start"
                 >
                   Your Email
                 </Typography>
                 <Input
                   size="lg"
                   placeholder="name@mail.com"
-                  className=" !border-t-blue-gray-200 text-[#417D41] p-2 focus:!border-t-gray-900"
+                  className=" !border-t-blue-gray-200 bg-white text-[#006642] p-2 focus:!border-t-gray-900"
                   labelProps={{
                     className: "before:content-none after:content-none",
                   }}
@@ -49,14 +66,14 @@ function Contact() {
                 <Typography
                   variant="h6"
                   color="blue-gray"
-                  className="-mb-3 text-[#417D41] text-start"
+                  className="-mb-3 text-[#006642] text-start"
                 >
                   Your FullName
                 </Typography>
                 <Input
                   size="lg"
                   placeholder="Name"
-                  className=" !border-t-blue-gray-200 text-[#417D41] p-2 focus:!border-t-gray-900"
+                  className=" !border-t-blue-gray-200 bg-white text-[#006642] p-2 focus:!border-t-gray-900"
                   labelProps={{
                     className: "before:content-none after:content-none",
                   }}
@@ -64,14 +81,14 @@ function Contact() {
                 <Typography
                   variant="h6"
                   color="blue-gray"
-                  className="-mb-3 text-[#417D41] text-start"
+                  className="-mb-3 text-[#006642] text-start"
                 >
                   Your Mobile
                 </Typography>
                 <Input
                   size="lg"
                   placeholder="01712345678"
-                  className=" !border-t-blue-gray-200 text-[#417D41] p-2 focus:!border-t-gray-900"
+                  className=" !border-t-blue-gray-200 bg-white text-[#006642] p-2 focus:!border-t-gray-900"
                   labelProps={{
                     className: "before:content-none after:content-none",
                   }}
@@ -79,14 +96,14 @@ function Contact() {
                 <Typography
                   variant="h6"
                   color="blue-gray"
-                  className="-mb-3 text-[#417D41] text-start"
+                  className="-mb-3 text-[#006642] text-start"
                 >
                   Your Messages
                 </Typography>
                 <Input
                   size="lg"
                   placeholder="Write Support Queries"
-                  className=" !border-t-blue-gray-200 text-[#417D41] p-2 focus:!border-t-gray-900"
+                  className=" !border-t-blue-gray-200 bg-white text-[#006642] p-2 focus:!border-t-gray-900"
                   labelProps={{
                     className: "before:content-none after:content-none",
                   }}
@@ -94,7 +111,7 @@ function Contact() {
               </div>
 
               <Link to="/report">
-                <Button className="mt-6 bg-[#417D41] " fullWidth>
+                <Button className="mt-6 bg-[#006642] " fullWidth>
                   SEND MESSAGES
                 </Button>
               </Link>
@@ -102,10 +119,11 @@ function Contact() {
           </Card>
         </div>
       </div>
+
       <div
-        className={`inset-0 justify-center items-center mb-[20px] text-center flex flex-wrap  text-white`}
+        className={`inset-0 justify-center items-center mb-[20px]  text-center flex flex-wrap  text-white`}
       >
-        <div className="flex-col  max-w-screen-xl container rounded block items-stretch md:flex-row  mt-[20px] mx-auto">
+        <div className="flex-col  max-w-screen-xl container rounded sm:w-[80%]  block items-stretch md:flex-row  mt-[20px] mx-auto">
           <div className="relative flex flex-wrap p-2">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.2197080792394!2d90.37959757619976!3d23.73954337867781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8ca7af5f82b%3A0xce7d1ab6b16a027!2sPopular%20Diagnostic%20Centre%20Ltd.!5e0!3m2!1sen!2sbd!4v1706512680599!5m2!1sen!2sbd"

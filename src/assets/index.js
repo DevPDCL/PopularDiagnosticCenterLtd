@@ -5,6 +5,8 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.png";
+import goals from "./goals.jpg";
+import objective from "./objective.jpg";
 import down from "./down.png";
 import close from "./close.png";
 import home from "./home.png";
@@ -78,11 +80,9 @@ import cons from "./cons.mp4";
 import diagn from "./diag.mp4";
 import arrow from "./arrow.gif";
 
-
 import AmarlabLogo from "./tech/AmarlabLogo.png";
 import hajj from "./tech/hajj.png";
 import purehealth from "./tech/purehealth.png";
-
 
 import char from "./char.png";
 import md from "./md.png";
@@ -96,8 +96,6 @@ import m from "./m.png";
 import mm from "./mm.png";
 import me from "./me.png";
 import mf from "./mf.png";
-
-
 
 import Badda from "./PDCLbranches/Badda.webp";
 import Barishal from "./PDCLbranches/Barishal.webp";
@@ -129,9 +127,6 @@ import UttaraGaribENewaz from "./PDCLbranches/UttaraGaribENewaz.webp";
 import UttaraU1 from "./PDCLbranches/UttaraU1.webp";
 import UttaraU2 from "./PDCLbranches/UttaraU2.webp";
 
-
-
-
 import AchintoKumarNag from "./PDCLbranches/Managers/AchintoKumarNag.png";
 import AjoyKumarDatta from "./PDCLbranches/Managers/AjoyKumarDatta.png";
 import MdSohelChowdhury from "./PDCLbranches/Managers/MdSohelChowdhury.png";
@@ -155,7 +150,6 @@ import MrRezwanAhmed from "./PDCLbranches/Managers/MrRezwanAhmed.png";
 import MrZohurulIslam from "./PDCLbranches/Managers/MrZohurulIslam.png";
 import ShamsuzzohaKhanJohn from "./PDCLbranches/Managers/ShamsuzzohaKhanJohn.png";
 
-
 import AbdurRazzak from "./TopManagement/AbdurRazzak.png";
 import AfzalHossain from "./TopManagement/AfzalHossain.png";
 import DrMostafizurRahman from "./TopManagement/DrMostafizurRahman.png";
@@ -163,12 +157,21 @@ import LateTaheraAkhter from "./TopManagement/LateTaheraAkhter.png";
 import MdAlauddinFCMA from "./TopManagement/MdAlauddinFCMA.png";
 import MdSahabUddin from "./TopManagement/MdSahabUddin.png";
 import MdZiaulHaqueFaruk from "./TopManagement/MdZiaulHaqueFaruk.png";
+import MdZiaulHaqueFaruk1 from "./TopManagement/MdZiaulHaqueFaruk1.png";
 import MohammadArif from "./TopManagement/MohammadArif.png";
 import MosaddequeHossain from "./TopManagement/MosaddequeHossain.png";
 import MostafaNurmohammadPalash from "./TopManagement/MostafaNurmohammadPalash.png";
 import MrKabirAhmed from "./TopManagement/MrKabirAhmed.png";
 import SardinRahman from "./TopManagement/SardinRahman.png";
 
+import sliceCTScan from "./Notice/1152sliceCTScan.webp";
+import BangladeshWorkersWelfareFoundation from "./Notice/BangladeshWorkersWelfareFoundation.webp";
+import CardiacMRIMachine from "./Notice/CardiacMRIMachine.webp";
+import EmployeesWelfareFund from "./Notice/EmployeesWelfareFund.webp";
+import EmployeesWelfareFund2 from "./Notice/EmployeesWelfareFund2.webp";
+import InsuranceCoverageEmployee from "./Notice/InsuranceCoverageEmployee.webp";
+import ISOCertified90012015 from "./Notice/ISOCertified90012015.webp";
+import RamadanNotice24 from "./Notice/RamadanNotice24.webp";
 
 import aa from "./aa.jpg";
 import aaa from "./aaa.jpg";
@@ -177,7 +180,27 @@ import b from "./b.jpg";
 import aaaaa from "./cccc.jpg";
 import bb from "./bb.jpg";
 import bbb from "./bbb.jpg";
-import RamadanNotice24 from "./RamadanNotice24.png";
+
+import ASSO_PROF_DR_ASHRAFUL_ISLAM from "./DoctorImage/ASSO_PROF_DR_ASHRAFUL_ISLAM.png";
+import ASST_PROF_DR_HENA_KHATUN from "./DoctorImage/ASST_PROF_DR_HENA_KHATUN.png";
+import ASST_PROF_DR_UTHPOL_KUMAR_DATTA from "./DoctorImage/ASST_PROF_DR_UTHPOL_KUMAR_DATTA.png";
+import DR_MD_MAHBUB_ALAM from "./DoctorImage/DR_MD_MAHBUB_ALAM.png";
+import DR_MOSTAFA_KAMAL_AREFIN from "./DoctorImage/DR_MOSTAFA_KAMAL_AREFIN.png";
+import PROF_DR_ABU_HENA_MOSTAFA_KAMAL from "./DoctorImage/PROF_DR_ABU_HENA_MOSTAFA_KAMAL.png";
+import PROF_DR_AHAMED_RAQUIB from "./DoctorImage/PROF_DR_AHAMED_RAQUIB.png";
+import PROF_DR_APARNA_DAS from "./DoctorImage/PROF_DR_APARNA_DAS.png";
+import PROF_DR_BISWAS_AKHTAR_HOSSAIN from "./DoctorImage/PROF_DR_BISWAS_AKHTAR_HOSSAIN.png";
+import PROF_DR_KHAN_ABUL_KALAM_AZAD from "./DoctorImage/PROF_DR_KHAN_ABUL_KALAM_AZAD.png";
+import PROF_DR_MD_ASADUL_KABIR from "./DoctorImage/PROF_DR_MD_ASADUL_KABIR.png";
+import PROF_DR_MD_ASHRAFUL_ISLAM from "./DoctorImage/PROF_DR_MD_ASHRAFUL_ISLAM.png";
+import PROF_DR_MD_FAIZUL_ISLAM_CHOWDHURY from "./DoctorImage/PROF_DR_MD_FAIZUL_ISLAM_CHOWDHURY.png";
+import PROF_DR_MD_MOHSIN_HOSSAIN from "./DoctorImage/PROF_DR_MD_MOHSIN_HOSSAIN.png";
+import PROF_DR_MD_MONJURUL_ALAM from "./DoctorImage/PROF_DR_MD_MONJURUL_ALAM.png";
+import PROF_DR_MOHAMMAD_SAFIUDDIN from "./DoctorImage/PROF_DR_MOHAMMAD_SAFIUDDIN.png";
+import PROF_DR_Q_TARIKUL_ISLAM from "./DoctorImage/PROF_DR_Q_TARIKUL_ISLAM.png";
+import PROF_DR_SHAKIL_GHAFUR from "./DoctorImage/PROF_DR_SHAKIL_GHAFUR.png";
+import PROF_DR_SHYMAL_SARKER from "./DoctorImage/PROF_DR_SHYMAL_SARKER.png";
+
 export {
   logo,
   aa,
@@ -190,6 +213,8 @@ export {
   bbb,
   char,
   md,
+  objective,
+  goals,
   ad,
   agf,
   gm,
@@ -338,9 +363,36 @@ export {
   MdAlauddinFCMA,
   MdSahabUddin,
   MdZiaulHaqueFaruk,
+  MdZiaulHaqueFaruk1,
   MohammadArif,
   MosaddequeHossain,
   MostafaNurmohammadPalash,
   MrKabirAhmed,
-  SardinRahman
+  SardinRahman,
+  sliceCTScan,
+  BangladeshWorkersWelfareFoundation,
+  CardiacMRIMachine,
+  EmployeesWelfareFund,
+  EmployeesWelfareFund2,
+  InsuranceCoverageEmployee,
+  ISOCertified90012015,
+  ASSO_PROF_DR_ASHRAFUL_ISLAM,
+  ASST_PROF_DR_HENA_KHATUN,
+  ASST_PROF_DR_UTHPOL_KUMAR_DATTA,
+  DR_MD_MAHBUB_ALAM,
+  DR_MOSTAFA_KAMAL_AREFIN,
+  PROF_DR_ABU_HENA_MOSTAFA_KAMAL,
+  PROF_DR_AHAMED_RAQUIB,
+  PROF_DR_APARNA_DAS,
+  PROF_DR_BISWAS_AKHTAR_HOSSAIN,
+  PROF_DR_KHAN_ABUL_KALAM_AZAD,
+  PROF_DR_MD_ASADUL_KABIR,
+  PROF_DR_MD_ASHRAFUL_ISLAM,
+  PROF_DR_MD_FAIZUL_ISLAM_CHOWDHURY,
+  PROF_DR_MD_MOHSIN_HOSSAIN,
+  PROF_DR_MD_MONJURUL_ALAM,
+  PROF_DR_MOHAMMAD_SAFIUDDIN,
+  PROF_DR_Q_TARIKUL_ISLAM,
+  PROF_DR_SHAKIL_GHAFUR,
+  PROF_DR_SHYMAL_SARKER,
 };

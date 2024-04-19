@@ -2,8 +2,6 @@ import { Nav, Navbar, Sidemenu, Tech, Bottommenu } from "../components";
 import { topManagement } from "../constants";
 import { ServiceCost } from "../constants";
 import React, { useState } from "react";
-import AutoSizer from "react-virtualized/dist/commonjs/AutoSizer";
-import List from "react-virtualized/dist/commonjs/List";
 
 const ProjectCard = ({ manImg, manName, manDesignation }) => {
   return (
@@ -95,80 +93,33 @@ const About = () => {
       </div>
 
       {/* Top section for chairman ma'am, Md sir and Sardin sir */}
-      <div className="flex mx-auto pb-10 pt-2 max-w-7xl justify-center flex-wrap gap-7">
+      <div className="flex mx-auto p-3 pb-10 pt-2 max-w-7xl justify-center flex-wrap gap-7">
         {topPosition.map((project) => (
           <ProjectCard key={project.manID} {...project} />
         ))}
       </div>
 
       {/* Second section for general managers and advisors*/}
-      <div className="flex mx-auto py-10  max-w-7xl justify-center flex-wrap gap-7">
+      <div className="flex mx-auto p-3 py-10  max-w-7xl justify-center flex-wrap gap-7">
         {secondTopPosition.map((project) => (
           <ProjectCard key={project.manID} {...project} />
         ))}
       </div>
 
       {/* Third section for AGMs */}
-      <div className="flex mx-auto py-10 max-w-7xl justify-center flex-wrap gap-7">
+      <div className="flex mx-auto p-3 py-10 max-w-7xl justify-center flex-wrap gap-7">
         {thirdTopPosition.map((project) => (
           <ProjectCard key={project.manID} {...project} />
         ))}
       </div>
 
       {/* Fourth section for managers */}
-      <div className="flex mx-auto py-10 max-w-7xl justify-center flex-wrap gap-7">
+      <div className="flex mx-auto p-3 py-10 max-w-7xl justify-center flex-wrap gap-4">
         {fourthTopPosition.map((project) => (
           <ProjectCard key={project.manID} {...project} />
         ))}
       </div>
-
-      {/* <div>
-        <h1 className="bg-black text-white font-bold text-center text-[24px]">
-          {" "}
-          Test Price Searching{" "}
-          <span className="text-red-500 font-bold text-[10px]">
-            temporary
-          </span>{" "}
-        </h1>
-        <div className="text-black">
-          <select value={selectedBranch} onChange={handleBranchChange}>
-            <option value="">Select Branch</option>
-            {ServiceCost.map((branch) => (
-              <option key={branch.braId} value={branch.braId}>
-                {branch.braName}
-              </option>
-            ))}
-          </select>
-          <br />
-          <input
-            type="text"
-            placeholder="Search Services"
-            value={searchTerm}
-            onChange={handleSearchChange}
-          />
-          {filteredServices.length > 0 && (
-            <div> */}
-              {/* Render the header */}
-              {/* <ListHeader /> */}
-
-              {/* List */}
-              {/* <AutoSizer>
-                {({ width }) => (
-                  <List
-                    height={250}
-                    rowCount={filteredServices.length}
-                    rowHeight={50}
-                    rowRenderer={renderRow}
-                    overscanRowCount={5}
-                    width={width}
-                  />
-                )}
-              </AutoSizer>
-            </div>
-          )}
-        </div>
-      </div> */}
- 
+      
       <Tech />
     </div>
   );

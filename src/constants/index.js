@@ -124,12 +124,39 @@ import {
   MdAlauddinFCMA,
   MdSahabUddin,
   MdZiaulHaqueFaruk,
+  MdZiaulHaqueFaruk1,
   MohammadArif,
   MosaddequeHossain,
   MostafaNurmohammadPalash,
   MrKabirAhmed,
   SardinRahman,
-  RamadanNotice24
+  RamadanNotice24,
+  sliceCTScan,
+  BangladeshWorkersWelfareFoundation,
+  CardiacMRIMachine,
+  EmployeesWelfareFund,
+  EmployeesWelfareFund2,
+  InsuranceCoverageEmployee,
+  ISOCertified90012015,
+  ASSO_PROF_DR_ASHRAFUL_ISLAM,
+  ASST_PROF_DR_HENA_KHATUN,
+  ASST_PROF_DR_UTHPOL_KUMAR_DATTA,
+  DR_MD_MAHBUB_ALAM,
+  DR_MOSTAFA_KAMAL_AREFIN,
+  PROF_DR_ABU_HENA_MOSTAFA_KAMAL,
+  PROF_DR_AHAMED_RAQUIB,
+  PROF_DR_APARNA_DAS,
+  PROF_DR_BISWAS_AKHTAR_HOSSAIN,
+  PROF_DR_KHAN_ABUL_KALAM_AZAD,
+  PROF_DR_MD_ASADUL_KABIR,
+  PROF_DR_MD_ASHRAFUL_ISLAM,
+  PROF_DR_MD_FAIZUL_ISLAM_CHOWDHURY,
+  PROF_DR_MD_MOHSIN_HOSSAIN,
+  PROF_DR_MD_MONJURUL_ALAM,
+  PROF_DR_MOHAMMAD_SAFIUDDIN,
+  PROF_DR_Q_TARIKUL_ISLAM,
+  PROF_DR_SHAKIL_GHAFUR,
+  PROF_DR_SHYMAL_SARKER,
 } from "../assets";
 
 const navLinks = [
@@ -207,11 +234,6 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
-  },
-
-  {
-    name: "git",
-    icon: git,
   },
 ];
 const service = [
@@ -309,7 +331,7 @@ const projects = [
     id: 1,
     name: "HEALTH DIAGNOSIS",
     description:
-      "Ambulance BD 24 is the best ambulance service in Dhaka, Bangladesh. We provide emergency ambulance service in Dhaka city and transport patient.",
+      "Popular Diagnostic Centre Ltd. is an advanced Centre providing the diagnostic imaging services in an elevated ambience, completed by service and report efficiency.",
     tags: [
       {
         name: "Indhaka",
@@ -325,9 +347,9 @@ const projects = [
   },
   {
     id: 2,
-    name: "HEALTH CONSULTATION",
+    name: "HEALTH CONSULT",
     description:
-      "Blood Bank Management System (BBMS) under Safe Blood Transfusion Program, HSM, DGHS. Blood Transfusion Transfusion Program, HSM, DGHS.",
+      "Popular Diagnostic Centre Ltd. is an advanced Centre providing the diagnostic imaging services in an elevated ambience, completed by service and report efficiency.",
     tags: [
       {
         name: "Indhaka",
@@ -345,7 +367,7 @@ const projects = [
     id: 3,
     name: "HEALTH PAKAGES",
     description:
-      "We believe everyone should have access to convenient and quality healthcare. Our health checks and packages help you stay on top of your.",
+      "Popular Diagnostic Centre Ltd. is an advanced Centre providing the diagnostic imaging services in an elevated ambience, completed by service and report efficiency.",
     tags: [
       {
         name: "Indhaka",
@@ -424,7 +446,7 @@ const topManagement = [
   },
   {
     manID: 11,
-    manImg: MdZiaulHaqueFaruk,
+    manImg: MdZiaulHaqueFaruk1,
     manName: "Md Ziaul Haque Faruk",
     manDesignation: "Manager, (Marketing)",
   },
@@ -1119,64 +1141,65 @@ const projects1 = [
 const notice = [
   {
     noticeID: 1,
-    noticeImage: RamadanNotice24,
-    noticeHead: "Ramadan Time Schedule Update for Dhanmondi Head Office and Other Branches",
-    noticeDetail:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
-  },
-  {
-    noticeID: 2,
-    noticeImage: aa,
-    noticeHead: "PDCL Handover Donation to Bangladesh Workers Welfare Foundation ",
+    noticeImage: BangladeshWorkersWelfareFoundation,
+    noticeHead:
+      "PDCL Handover Donation to Bangladesh Workers Welfare Foundation ",
     noticeDetail:
       'Today, a total pay order of Rs. 52 lakhs, 66 thousand 598 Taka, on behalf of Popular Diagnostic Center Ltd., under the fund "Bangladesh Workers Welfare Foundation", was formally handed over to the Honorable Inspector General of Factory and Institution Inspection Department, Mr. Mohammad Abdur Rahim Khan.',
   },
   {
+    noticeID: 2,
+    noticeImage: RamadanNotice24,
+    noticeHead:
+      "Ramadan Time Schedule Update for Dhanmondi Head Office and Other Branches",
+    noticeDetail:
+      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+  },
+  {
     noticeID: 3,
-    noticeImage: aaa,
+    noticeImage: InsuranceCoverageEmployee,
     noticeHead:
       "Group Insurance Coverage for the Employee of Popular Diagnostic Centre Ltd. ",
     noticeDetail:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+      "Dr. Mostafizur Rahman, the Honorable Managing  Director & CEO of Popular Group hand overing Group Insurance Coverage Claimed Cheque to an Employee for his Accidental Permanent Partial Disability. ",
   },
   {
     noticeID: 4,
-    noticeImage: aaaa,
+    noticeImage: EmployeesWelfareFund,
     noticeHead:
       "Donation Cheque Distribution from Popular Diagnostic Centre Ltd. Employees Welfare Fund.",
     noticeDetail:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+      "Dr. Mostafizur Rahman, the Honorable Managing  Director & CEO of Popular Group hand overing donation cheque to an Employee whose baby is suffering from Blood Cancer on behalf of Popular Diagnostic Centre Ltd. Employees Welfare Fund Trustee Board.",
   },
   {
     noticeID: 5,
-    noticeImage: aaaaa,
+    noticeImage: EmployeesWelfareFund2,
     noticeHead:
       "Donation Cheque Distribution from Popular Diagnostic Centre Ltd. Employees Welfare Fund. ",
     noticeDetail:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+      "Dr. Mostafizur Rahman, the Honorable Managing  Director & CEO of Popular Group hand overing donation cheque to a pancreatic disease suffering staff on behalf of Popular Diagnostic Centre Ltd. Employees Welfare Fund Trustee Board. ",
   },
   {
     noticeID: 6,
-    noticeImage: b,
+    noticeImage: ISOCertified90012015,
     noticeHead:
       "Popular Diagnostic Centre Ltd. is now ISO Certified (9001:2015) Company ",
     noticeDetail:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+      "Popular Diagnostic Centre Ltd. is now ISO Certified (9001:2015) Company. Congratulations! to our Honorable Managing Director, Board of Directors, all Colleagues and Well Wishers. ",
   },
   {
     noticeID: 7,
-    noticeImage: bb,
+    noticeImage: CardiacMRIMachine,
     noticeHead: "New Cardiac MRI Machine in Popular Dhanmondi Branch ",
-    noticeDetail:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+    noticeDetail: "New Cardiac MRI Machine in Popular Dhanmondi Branch  ",
   },
   {
     noticeID: 8,
-    noticeImage: bbb,
+    noticeImage: sliceCTScan,
     noticeHead:
       "We Introduce 1152 slice CT Scan at Dhanmondi Head Office 1st time in Bangladesh ",
     noticeDetail:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+      "We Introduce 1152 slice CT Scan at Dhanmondi Head Office 1st time in Bangladesh",
   },
 ];
 
@@ -41629,102 +41652,478 @@ const doctorData = {
       braName: "Dhanmondi",
       specilizations: [
         {
-          SpecilizationID: 1,
+          SpecilizationID: 8,
           specializationName: "Cardiology",
           doctorDetails: [
             {
               drGender: "Male",
-              drName: "Prof. Dr. M. Nazrul Islam",
-              degree: "MBBS, FCPS, FRCP (Edin), FCCP, FACC, FESC. BSMMU (PG)",
+              drName: "Prof. Dr. Mohammad Safiuddin",
+              degree:
+                "MBBS (Dhaka), MD (Cardiology), DTCD (DU), FRCP (Eden) FACC (USA), FCCP (USA), FESC, FRCP (Glasgow). (BSMMU)",
               weekday: [
                 {
                   day: "Saturday",
-                  time: "3:00 PM - 5:00 PM",
+                  time: "06:00 PM - 09:00 PM",
                 },
                 {
                   day: "Sunday",
-                  time: "3:00 PM - 5:00 PM",
+                  time: "06:00 PM - 09:00 PM",
                 },
                 {
                   day: "Monday",
-                  time: "3:00 PM - 5:00 PM",
+                  time: "06:00 PM - 09:00 PM",
                 },
                 {
                   day: "Tuesday",
-                  time: "3:00 PM - 5:00 PM",
+                  time: "06:00 PM - 09:00 PM",
                 },
                 {
                   day: "Wednesday",
-                  time: "3:00 PM - 5:00 PM",
+                  time: "06:00 PM - 09:00 PM",
                 },
                 {
                   day: "Thursday",
-                  time: "3:00 PM - 5:00 PM",
+                  time: "06:00 PM - 09:00 PM",
                 },
               ],
               building: "Bhaban-1",
-              room: "401",
-              drNumber: 1711563450,
+              room: "308",
+              drNumber: 1713009932,
               email: "mnislam3512@gmail.com",
-              newPatient: "2000",
-              oldPatient: "2000",
-              report: "Free",
-              assistantName: "Anis",
+              newPatient: "1500",
+              oldPatient: "1500",
+              report: "500",
+              assistantName: "Prodip",
               assistantGender: "Male",
-              ext: "111421",
-              assistantMobile: "01768431923",
-              image: "Yes",
+              ext: "111328",
+              assistantMobile: "01912293311",
+              image: PROF_DR_MOHAMMAD_SAFIUDDIN,
+            },
+            {
+              drGender: "Male",
+              drName: "Prof. Dr. Shakil Ghafur",
+              degree:
+                "MBBS,DTCD (Chest), MD (Cardiology) Advanced Training In Invasive Cardiology Clinical & Interventional Cardiologist. Professor & Ex. Head, Dept. of Cardiology Rangpur Medicial College & Hospital, Rangpur.",
+              weekday: [
+                {
+                  day: "Saturday",
+                  time: "10:00 AM - 01:00 PM",
+                },
+                {
+                  day: "Sunday",
+                  time: "10:00 AM - 01:00 PM",
+                },
+                {
+                  day: "Monday",
+                  ttime: "10:00 AM - 01:00 PM",
+                },
+                {
+                  day: "Tuesday",
+                  time: "10:00 AM - 01:00 PM",
+                },
+                {
+                  day: "Wednesday",
+                  time: "10:00 AM - 01:00 PM",
+                },
+              ],
+              building: "Bhaban-1",
+              room: "201",
+              drNumber: 1711440532,
+              email: "mnislam3512@gmail.com",
+              newPatient: "1200",
+              oldPatient: "800",
+              report: "500",
+              assistantName: "Ive",
+              assistantGender: "Female",
+              ext: "114202",
+              assistantMobile: "01749211995",
+              image: PROF_DR_SHAKIL_GHAFUR,
+            },
+            {
+              drGender: "Male",
+              drName: "Prof.Dr.Md. Mohsin Hossain",
+              degree:
+                "MBBS, MD(medicine), FCPS(Cardiology), Interventional Cardiologist & Electrophysiologist, Professor of cardiology, National Institute of cardiovascular Disease, Sher-E-Bangla Nagar, Dhaka.",
+              weekday: [
+                {
+                  day: "Saturday",
+                  time: "05:00 PM - 08:00 PM",
+                },
+                {
+                  day: "Sunday",
+                  time: "05:00 PM - 08:00 PM",
+                },
+                {
+                  day: "Monday",
+                  time: "05:00 PM - 08:00 PM",
+                },
+                {
+                  day: "Tuesday",
+                  time: "05:00 PM - 08:00 PM",
+                },
+                {
+                  day: "Wednesday",
+                  time: "05:00 PM - 08:00 PM",
+                },
+                {
+                  day: "Thursday",
+                  time: "05:00 PM - 08:00 PM",
+                },
+              ],
+              building: "Bhaban-6",
+              room: "201",
+              drNumber: 1711606544,
+              email: "",
+              newPatient: "1500",
+              oldPatient: "",
+              report: "",
+              assistantName: "",
+              assistantGender: "",
+              ext: "114201",
+              assistantMobile: "",
+              image: PROF_DR_MD_MOHSIN_HOSSAIN,
             },
             // More doctorDetails under Cardiology...
           ],
         },
         {
-          SpecilizationID: 2,
+          SpecilizationID: 7,
           specializationName: "Medicine",
           doctorDetails: [
             {
               drGender: "Male",
-              drName: "Prof. Dr. M.A Azhar",
+              drName: "Prof. Dr. Md. Faizul Islam Chowdhury",
               degree:
-                "MBBS, FCPS (Medicine), FACP, FRCP (Edin). Sir Salimullah Medical College & Mitford Hospital, Dhaka.",
+                "MBBS, FCPS (Medicine), PhD(USA), Former Professor, Dhaka Medical College ,Dhaka",
               weekday: [
                 {
                   day: "Saturday",
-                  time: "10:00 AM - 5:00 PM",
+                  time: "06:00 PM - 09:00 PM",
                 },
                 {
                   day: "Sunday",
-                  time: "10:00 AM - 5:00 PM",
+                  time: "06:00 PM - 09:00 PM",
                 },
                 {
                   day: "Monday",
-                  time: "10:00 AM - 5:00 PM",
+                  time: "02:00 AM - 04:00 PM",
                 },
                 {
                   day: "Tuesday",
-                  time: "10:00 AM - 5:00 PM",
+                  time: "06:00 PM - 09:00 PM",
                 },
                 {
                   day: "Wednesday",
-                  time: "10:00 AM - 5:00 PM",
+                  time: "06:00 PM - 09:00 PM",
                 },
                 {
                   day: "Thursday",
-                  time: "10:00 AM - 5:00 PM",
+                  time: "02:00 AM - 04:00 PM",
+                },
+              ],
+              building: "Bhaban-5",
+              room: "307",
+              drNumber: 1819215287,
+              email: "",
+              newPatient: "1500",
+              oldPatient: "1000",
+              report: "500",
+              assistantName: "A.Rahaman",
+              assistantGender: "Male",
+              ext: "113327",
+              assistantMobile: "01712949419",
+              image: PROF_DR_MD_FAIZUL_ISLAM_CHOWDHURY,
+            },
+            {
+              drGender: "Male",
+              drName: "Prof. Dr. Q.Tarikul Islam",
+              degree:
+                "FCPS (Medicine), FACP (USA), FRCP (Glasgow), FRCP (Edin), MACP (USA). Popular Medicile College & Hospital, Dhaka.",
+              weekday: [
+                {
+                  day: "Saturday",
+                  time: "05:00 PM - 08:00 PM",
+                },
+                {
+                  day: "Sunday",
+                  time: "05:00 PM - 08:00 PM",
+                },
+                {
+                  day: "Monday",
+                  time: "05:00 PM - 08:00 PM",
+                },
+                {
+                  day: "Tuesday",
+                  time: "05:00 PM - 08:00 PM",
+                },
+                {
+                  day: "Wednesday",
+                  time: "05:00 PM - 08:00 PM",
+                },
+                {
+                  day: "Thursday",
+                  time: "05:00 PM - 08:00 PM",
+                },
+              ],
+              building: "Bhaban-6",
+              room: "412",
+              drNumber: 1715299399,
+              email: "",
+              newPatient: "1700",
+              oldPatient: "1000",
+              report: "Free",
+              assistantName: "Imran",
+              assistantGender: "Male",
+              ext: "114412",
+              assistantMobile: "01797798871",
+              image: PROF_DR_Q_TARIKUL_ISLAM,
+            },
+            {
+              drGender: "Male",
+              drName: "Prof. Dr. Khan Abul Kalam Azad",
+              degree:
+                "MBBS (DMC), FCPS (Medicine), MD (Internal Med.), FACP (USA). Dhaka Medical College & Hospital.",
+              weekday: [
+                {
+                  day: "Saturday",
+                  time: "05:00 PM - 09:00 PM",
+                },
+                {
+                  day: "Sunday",
+                  time: "05:00 PM - 09:00 PM",
+                },
+                {
+                  day: "Monday",
+                  time: "05:00 PM - 09:00 PM",
+                },
+                {
+                  day: "Tuesday",
+                  time: "05:00 PM - 09:00 PM",
+                },
+                {
+                  day: "Wednesday",
+                  time: "05:00 PM - 09:00 PM",
+                },
+                {
+                  day: "Thursday",
+                  time: "05:00 PM - 09:00 PM",
+                },
+              ],
+              building: "Bhaban-1",
+              room: "303",
+              drNumber: 1711890508,
+              email: "",
+              newPatient: "1500",
+              oldPatient: "1000",
+              report: "Free",
+              assistantName: "Sumon",
+              assistantGender: "Male",
+              ext: "111323",
+              assistantMobile: "01722357969",
+              image: PROF_DR_KHAN_ABUL_KALAM_AZAD,
+            },
+            // More doctorDetails under Medicine...
+          ],
+        },
+        {
+          SpecilizationID: 6,
+          specializationName: "ENT, Head & Neck Surgery",
+          doctorDetails: [
+            {
+              drGender: "Male",
+              drName: "Dr. Mostafa Kamal Arefin",
+              degree:
+                "MBBS (DMC), BCS (Health), FCPS, MCPS (ENT), ENT & Head-Neck Surgery Specialist, Speciality Trained in Microeasrsurgery, Endoscopic Sinus surgery & Rhynoplasty (India, Bangladesh) Dhaka Medical College & Hospital.",
+              weekday: [
+                {
+                  day: "Sunday",
+                  time: "03:00 PM - 05:00 PM",
+                },
+                {
+                  day: "Tuesday",
+                  time: "03:00 PM - 05:00 PM",
+                },
+                {
+                  day: "Thursday",
+                  time: "03:00 PM - 05:00 PM",
+                },
+                {
+                  day: "Friday",
+                  time: "05:00 PM - 07:00 PM",
+                },
+              ],
+              building: "Bhaban-4",
+              room: "212",
+              drNumber: 0,
+              email: "",
+              newPatient: "1200",
+              oldPatient: "1000",
+              report: "Free",
+              assistantName: "Bithi",
+              assistantGender: "Female",
+              ext: "103200",
+              assistantMobile: "01921509008",
+              image: DR_MOSTAFA_KAMAL_AREFIN,
+            },
+            {
+              drGender: "Male",
+              drName: "Prof. Dr. Ahamed Raquib",
+              degree:
+                "FCPS (Medicine), FACP (USA), FRCP (Glasgow), FRCP (Edin), MACP (USA). Popular Medicile College & Hospital, Dhaka.",
+              weekday: [
+                {
+                  day: "Saturday",
+                  time: "04:30 PM - 06:30 PM",
+                },
+                {
+                  day: "Sunday",
+                  time: "04:30 PM - 06:30 PM",
+                },
+                {
+                  day: "Monday",
+                  time: "04:30 PM - 06:30 PM",
+                },
+                {
+                  day: "Tuesday",
+                  time: "04:30 PM - 06:30 PM",
+                },
+                {
+                  day: "Wednesday",
+                  time: "04:30 PM - 06:30 PM",
+                },
+              ],
+              building: "Bhaban-3",
+              room: "203",
+              drNumber: 1819241057,
+              email: "",
+              newPatient: "1000",
+              oldPatient: "700",
+              report: "300",
+              assistantName: "Mr.Zillur Rahman",
+              assistantGender: "Male",
+              ext: "103200",
+              assistantMobile: "01307779205",
+              image: PROF_DR_AHAMED_RAQUIB,
+            },
+            {
+              drGender: "Male",
+              drName: "Prof. Dr. Md. Ashraful Islam",
+              degree:
+                "MBBS, FCPS, FICS (USA), Fellow in Otology Harvard Medical School, USA. Bangladesh Medical College & Hospital, Dhaka.",
+              weekday: [
+                {
+                  day: "Saturday",
+                  time: "10:00 AM - 05:00 PM",
+                },
+                {
+                  day: "Sunday",
+                  time: "09:00 AM - 05:00 PM",
+                },
+                {
+                  day: "Monday",
+                  time: "10:00 AM - 04:00 PM",
+                },
+                {
+                  day: "Tuesday",
+                  time: "10:00 AM - 04:00 PM",
+                },
+                {
+                  day: "Wednesday",
+                  time: "10:00 AM - 04:00 PM",
+                },
+                {
+                  day: "Thursday",
+                  time: "10:00 AM - 04:00 PM",
+                },
+              ],
+              building: "Bhaban-5",
+              room: "301",
+              drNumber: 1711527954,
+              email: "",
+              newPatient: "1500",
+              oldPatient: "1500",
+              report: "500",
+              assistantName: "Rahim",
+              assistantGender: "Male",
+              ext: "113321",
+              assistantMobile: "01727264236",
+              image: PROF_DR_MD_ASHRAFUL_ISLAM,
+            },
+            {
+              drGender: "Male",
+              drName: "Prof. Dr. Md. Monjurul Alam",
+              degree:
+                "MBBS, FCPS, MS (ENT), FICS (USA), Microear Surgery (Bangkok, Mumbai, Malaysia), FESS & Plastic Surgery (Delhi, Chennai, Singapore). BSMMU.",
+              weekday: [
+                {
+                  day: "Saturday",
+                  time: "05:30 PM - 08:00 PM",
+                },
+                {
+                  day: "Sunday",
+                  time: "05:30 PM - 08:00 PM",
+                },
+                {
+                  day: "Monday",
+                  time: "05:30 PM - 08:00 PM",
+                },
+                {
+                  day: "Tuesday",
+                  time: "05:30 PM - 08:00 PM",
+                },
+                {
+                  day: "Wednesday",
+                  time: "05:30 PM - 08:00 PM",
+                },
+                {
+                  day: "Thursday",
+                  time: "05:30 PM - 08:00 PM",
                 },
               ],
               building: "Bhaban-2",
-              room: "304",
-              drNumber: 1711364552,
+              room: "603",
+              drNumber: 1819227717,
               email: "",
               newPatient: "1000",
               oldPatient: "500",
-              report: "Free",
-              assistantName: "Chan Miah",
+              report: "200",
+              assistantName: "Mozaffor",
               assistantGender: "Male",
-              ext: "2249",
-              assistantMobile: "01736131369",
-              image: "No",
+              ext: "112623",
+              assistantMobile: "01720248764",
+              image: PROF_DR_MD_MONJURUL_ALAM,
+            },
+            {
+              drGender: "Male",
+              drName: "Dr. Md. Mahbub Alam",
+              degree:
+                "MBBS(Dhaka), BCS (Health), FCPS (ENT), Advanced Trained in Microear Sugery, Endoscopic Sinus Surgery & Cochlear, Implant Surgery (Chennai, India), Shaheed Suhrawardy Medical College and Hospital",
+              weekday: [
+                {
+                  day: "Saturday",
+                  time: "03:00 PM - 05:00 PM",
+                },
+                {
+                  day: "Monday",
+                  time: "03:00 PM - 05:00 PM",
+                },
+                {
+                  day: "Wednesday",
+                  time: "03:00 PM - 05:00 PM",
+                },
+              ],
+              building: "Bhaban-3",
+              room: "206",
+              drNumber: 1846594948,
+              email: "",
+              newPatient: "1000",
+              oldPatient: "700",
+              report: "Free",
+              assistantName: "Bithi",
+              assistantGender: "Female",
+              ext: "103200",
+              assistantMobile: "01921509008",
+              image: DR_MD_MAHBUB_ALAM,
             },
             // More doctorDetails under Medicine...
           ],
@@ -41737,37 +42136,21 @@ const doctorData = {
       braName: "English Road",
       specilizations: [
         {
-          SpecilizationID: 1,
-          specializationName: "Cardiology",
+          SpecilizationID: 5,
+          specializationName: "Orthopaedic Surgery",
           doctorDetails: [
             {
               drGender: "Male",
-              drName: "Prof. Dr. M. Nazrul Islam",
-              degree: "MBBS, FCPS, FRCP (Edin), FCCP, FACC, FESC. BSMMU (PG)",
+              drName: "Asso. Prof. Dr. Ashraful islam",
+              degree: "MBBS. MS(Ortho)",
               weekday: [
                 {
                   day: "Saturday",
-                  time: "3:00 PM - 5:00 PM",
-                },
-                {
-                  day: "Sunday",
-                  time: "3:00 PM - 5:00 PM",
-                },
-                {
-                  day: "Monday",
-                  time: "3:00 PM - 5:00 PM",
-                },
-                {
-                  day: "Tuesday",
-                  time: "3:00 PM - 5:00 PM",
+                  time: "8:00 PM - 9:30 PM",
                 },
                 {
                   day: "Wednesday",
-                  time: "3:00 PM - 5:00 PM",
-                },
-                {
-                  day: "Thursday",
-                  time: "3:00 PM - 5:00 PM",
+                  time: "8:00 PM - 9:30 PM",
                 },
               ],
               building: "Bhaban-1",
@@ -41781,44 +42164,31 @@ const doctorData = {
               assistantGender: "Male",
               ext: "111421",
               assistantMobile: "01768431923",
-              image: "Yes",
+              image: ASSO_PROF_DR_ASHRAFUL_ISLAM,
             },
             // More doctorDetails under Cardiology...
           ],
         },
         {
-          SpecilizationID: 2,
-          specializationName: "Medicine",
+          SpecilizationID: 4,
+          specializationName: "ENT, Head & Neck Surgery",
           doctorDetails: [
             {
               drGender: "Male",
-              drName: "Prof. Dr. M.A Azhar",
-              degree:
-                "MBBS, FCPS (Medicine), FACP, FRCP (Edin). Sir Salimullah Medical College & Mitford Hospital, Dhaka.",
+              drName: "Asst. Prof. Dr. Uthpol Kumar Datta",
+              degree: "MBBS.BCS.MS.BSMMUMBBS.BCS.MS.BSMMU",
               weekday: [
                 {
-                  day: "Saturday",
-                  time: "10:00 AM - 5:00 PM",
-                },
-                {
-                  day: "Sunday",
-                  time: "10:00 AM - 5:00 PM",
-                },
-                {
                   day: "Monday",
-                  time: "10:00 AM - 5:00 PM",
-                },
-                {
-                  day: "Tuesday",
-                  time: "10:00 AM - 5:00 PM",
+                  time: "07:00 PM - 08:00 PM",
                 },
                 {
                   day: "Wednesday",
-                  time: "10:00 AM - 5:00 PM",
+                  time: "07:00 PM - 08:00 PM",
                 },
                 {
-                  day: "Thursday",
-                  time: "10:00 AM - 5:00 PM",
+                  day: "Friday",
+                  time: "06:30 PM - 07:30 PM",
                 },
               ],
               building: "Bhaban-2",
@@ -41832,7 +42202,290 @@ const doctorData = {
               assistantGender: "Male",
               ext: "2249",
               assistantMobile: "01736131369",
-              image: "No",
+              image: ASST_PROF_DR_UTHPOL_KUMAR_DATTA,
+            },
+            // More doctorDetails under Medicine...
+          ],
+        },
+        {
+          SpecilizationID: 3,
+          specializationName: "Medicine",
+          doctorDetails: [
+            {
+              drGender: "Male",
+              drName: "Prof. Dr. Shymal Sarker",
+              degree: "MBBS (Dhaka) FCPS) (Medicine Specilis)",
+              weekday: [
+                {
+                  day: "Saturday",
+                  time: "6:30 PM - 9:00 PM",
+                },
+                {
+                  day: "Monday",
+                  time: "6:30 PM - 9:00 PM",
+                },
+                {
+                  day: "Wednesday",
+                  time: "6:30 PM - 9:00 PM",
+                },
+                {
+                  day: "Friday",
+                  time: "6:30 PM - 9:00 PM",
+                },
+              ],
+              building: "Bhaban-2",
+              room: "304",
+              drNumber: 1711364552,
+              email: "",
+              newPatient: "1000",
+              oldPatient: "500",
+              report: "Free",
+              assistantName: "Chan Miah",
+              assistantGender: "Male",
+              ext: "2249",
+              assistantMobile: "01736131369",
+              image: PROF_DR_SHYMAL_SARKER,
+            },
+            // More doctorDetails under Medicine...
+          ],
+        },
+        // More specializations in English Road...
+      ],
+    },
+    {
+      braID: 3,
+      braName: "Shantinagar",
+      specilizations: [
+        {
+          SpecilizationID: 1,
+          specializationName: "Chest Medicine",
+          doctorDetails: [
+            {
+              drGender: "Male",
+              drName: "Prof. Dr. Biswas Akhtar Hossain",
+              degree:
+                "MBBS,DTCD,FCCP (Ex. Professor) Dhaka Medical College,Dhaka",
+              weekday: [
+                {
+                  day: "Saturday",
+                  time: "04:00 PM - 06:00 PM",
+                },
+                {
+                  day: "Sunday",
+                  time: "04:00 PM - 06:00 PM",
+                },
+                {
+                  day: "Monday",
+                  time: "04:00 PM - 06:00 PM",
+                },
+                {
+                  day: "Tuesday",
+                  time: "04:00 PM - 06:00 PM",
+                },
+                {
+                  day: "Wednesday",
+                  time: "04:00 PM - 06:00 PM",
+                },
+                {
+                  day: "Thursday",
+                  time: "04:00 PM - 06:00 PM",
+                },
+              ],
+              building: "Bhaban-1",
+              room: "401",
+              drNumber: 1711563450,
+              email: "mnislam3512@gmail.com",
+              newPatient: "2000",
+              oldPatient: "2000",
+              report: "Free",
+              assistantName: "Anis",
+              assistantGender: "Male",
+              ext: "111421",
+              assistantMobile: "01768431923",
+              image: PROF_DR_BISWAS_AKHTAR_HOSSAIN,
+            },
+            {
+              drGender: "Female",
+              drName: "Asst. Prof. Dr. Hena Khatun",
+              degree: "MBBS,BCS,DTCD,MD (Dhaka Medical College,Dhaka)",
+              weekday: [
+                {
+                  day: "Saturday",
+                  time: "07:30 PM - 09:00 PM",
+                },
+                {
+                  day: "Sunday",
+                  time: "07:30 PM - 09:00 PM",
+                },
+                {
+                  day: "Monday",
+                  time: "07:30 PM - 09:00 PM",
+                },
+                {
+                  day: "Tuesday",
+                  time: "07:30 PM - 09:00 PM",
+                },
+                {
+                  day: "Wednesday",
+                  time: "07:30 PM - 09:00 PM",
+                },
+                {
+                  day: "Thursday",
+                  time: "07:30 PM - 09:00 PM",
+                },
+              ],
+              building: "Bhaban-1",
+              room: "401",
+              drNumber: 1711563450,
+              email: "mnislam3512@gmail.com",
+              newPatient: "2000",
+              oldPatient: "2000",
+              report: "Free",
+              assistantName: "Anis",
+              assistantGender: "Male",
+              ext: "111421",
+              assistantMobile: "01768431923",
+              image: ASST_PROF_DR_HENA_KHATUN,
+            },
+
+            // More doctorDetails under Chest Medicine...
+          ],
+        },
+        {
+          SpecilizationID: 2,
+          specializationName: "Medicine",
+          doctorDetails: [
+            {
+              drGender: "Female",
+              drName: "Prof. Dr. Aparna Das",
+              degree:
+                "MBBS,FCPS,MD,DEM Sir Salimullah Medical College & Mitford Hospital",
+              weekday: [
+                {
+                  day: "Saturday",
+                  time: "04:00 PM - 05:30 PM",
+                },
+                {
+                  day: "Sunday",
+                  time: "04:00 PM - 05:30 PM",
+                },
+                {
+                  day: "Monday",
+                  time: "04:00 PM - 05:30 PM",
+                },
+                {
+                  day: "Tuesday",
+                  time: "04:00 PM - 05:30 PM",
+                },
+                {
+                  day: "Wednesday",
+                  time: "04:00 PM - 05:30 PM",
+                },
+                {
+                  day: "Thursday",
+                  time: "04:00 PM - 05:30 PM",
+                },
+              ],
+              building: "Bhaban-2",
+              room: "304",
+              drNumber: 1711364552,
+              email: "",
+              newPatient: "1000",
+              oldPatient: "500",
+              report: "Free",
+              assistantName: "Chan Miah",
+              assistantGender: "Male",
+              ext: "2249",
+              assistantMobile: "01736131369",
+              image: PROF_DR_APARNA_DAS,
+            },
+            {
+              drGender: "Male",
+              drName: "Prof. Dr. Abu Hena Mostafa Kamal",
+              degree:
+                "MBBS,FCPS (Medicine) Professor & Head, Dept. of Medicine Holy Family Red Crescent Medical College",
+              weekday: [
+                {
+                  day: "Saturday",
+                  time: "03:00 PM - 05:00 PM",
+                },
+                {
+                  day: "Sunday",
+                  time: "03:00 PM - 05:00 PM",
+                },
+                {
+                  day: "Monday",
+                  time: "03:00 PM - 05:00 PM",
+                },
+                {
+                  day: "Tuesday",
+                  time: "03:00 PM - 05:00 PM",
+                },
+                {
+                  day: "Wednesday",
+                  time: "03:00 PM - 05:00 PM",
+                },
+                {
+                  day: "Thursday",
+                  time: "03:00 PM - 05:00 PM",
+                },
+              ],
+              building: "Bhaban-2",
+              room: "304",
+              drNumber: 1711364552,
+              email: "",
+              newPatient: "1000",
+              oldPatient: "500",
+              report: "Free",
+              assistantName: "Chan Miah",
+              assistantGender: "Male",
+              ext: "2249",
+              assistantMobile: "01736131369",
+              image: PROF_DR_ABU_HENA_MOSTAFA_KAMAL,
+            },
+            {
+              drGender: "Male",
+              drName: "Prof. Dr. Md. Asadul Kabir",
+              degree:
+                "MBBS,FCPS,MD,DEM Sir Salimullah Medical College & Mitford Hospital",
+              weekday: [
+                {
+                  day: "Saturday",
+                  time: "03:00 PM - 06:00 PM",
+                },
+                {
+                  day: "Sunday",
+                  time: "03:00 PM - 06:00 PM",
+                },
+                {
+                  day: "Monday",
+                  time: "03:00 PM - 06:00 PM",
+                },
+                {
+                  day: "Tuesday",
+                  time: "03:00 PM - 06:00 PM",
+                },
+                {
+                  day: "Wednesday",
+                  time: "03:00 PM - 06:00 PM",
+                },
+                {
+                  day: "Thursday",
+                  time: "03:00 PM - 06:00 PM",
+                },
+              ],
+              building: "Bhaban-2",
+              room: "304",
+              drNumber: 1711364552,
+              email: "",
+              newPatient: "1000",
+              oldPatient: "500",
+              report: "Free",
+              assistantName: "Chan Miah",
+              assistantGender: "Male",
+              ext: "2249",
+              assistantMobile: "01736131369",
+              image: PROF_DR_MD_ASADUL_KABIR,
             },
             // More doctorDetails under Medicine...
           ],
@@ -41845,266 +42498,647 @@ const doctorData = {
 };
 const healthPackages = [
   {
-    packageID: "1",
-    packageName: "Package-1",
+    packageID: 1,
+    packageHeading: "Package-1",
+    packageName: "",
     packageIncludes: [
       {
-        testName:"Complete Blood Count (CBC)",
-        testPrice:400,
+        testName: "Complete Blood Count (CBC)",
+        testPrice: 400,
       },
       {
-        testName:"Random Plasma glucose",
-        testPrice:200,
+        testName: "Random Blood Sugar",
+        testPrice: 200,
       },
       {
-        testName:"Lipid Profile (Random)",
-        testPrice:1400,
+        testName: "Lipid Profile (Random)",
+        testPrice: 1400,
       },
       {
-        testName:"Blood Grouping & RH Factor",
-        testPrice:300,
+        testName: "Blood Grouping & RH Factor",
+        testPrice: 300,
       },
       {
-        testName:"Serum Creatinine",
-        testPrice:400,
+        testName: "Serum Creatinine",
+        testPrice: 400,
       },
       {
-        testName:"HBs Ag",
-        testPrice:1000,
+        testName: "HBsAg",
+        testPrice: 1000,
       },
       {
-        testName:"Urine R/E",
-        testPrice:400,
+        testName: "Urine R/E",
+        testPrice: 400,
       },
       {
-        testName:"ECG",
-        testPrice:400,
+        testName: "ECG",
+        testPrice: 400,
       },
       {
-        testName:"Digital X-Ray of Chest P/A View (Digital)",
-        testPrice:600,
+        testName: "Digital X-Ray of Chest P/A View (Digital)",
+        testPrice: 600,
       },
       {
-        testName:"Portable Ultrasonogram of Whole Abdomen(P722)",
-        testPrice:3000,
+        testName: "Ultrasonography of Whole Abdomen",
+        testPrice: 2500,
       },
       {
-        testName:"Needle, Tube & Reg. Charges",
-        testPrice:110,
+        testName: "Needle, Tube & Reg. Charges",
+        testPrice: 110,
       },
-      
     ],
     discountedPrice: 5900,
   },
   {
-    packageID: "2",
-    packageName: "Package-2",
+    packageID: 2,
+    packageHeading: "Package-3",
+    packageName: "",
     packageIncludes: [
       {
-        testName:"Complete Blood Count (CBC)",
-        testPrice:400,
+        testName: "Complete Blood Count (CBC)",
+        testPrice: 400,
       },
       {
-        testName:"Random Plasma glucose",
-        testPrice:200,
+        testName: "Blood Sugar (Fasting & 2 hrs ABF)",
+        testPrice: 400,
       },
       {
-        testName:"Lipid Profile (Random)",
-        testPrice:1400,
+        testName: "Lipid Profile (Fasting)",
+        testPrice: 1400,
       },
       {
-        testName:"Blood Grouping & RH Factor",
-        testPrice:300,
+        testName: "Blood Grouping & RH Factor",
+        testPrice: 300,
       },
       {
-        testName:"Serum Creatinine",
-        testPrice:400,
+        testName: "HBsAg",
+        testPrice: 1000,
       },
       {
-        testName:"HBs Ag",
-        testPrice:1000,
+        testName: "SGPT",
+        testPrice: 500,
       },
       {
-        testName:"Urine R/E",
-        testPrice:400,
+        testName: "Serum Bilirubin (Total)",
+        testPrice: 400,
       },
       {
-        testName:"ECG",
-        testPrice:400,
+        testName: "Serum Uric Acid",
+        testPrice: 600,
       },
       {
-        testName:"Digital X-Ray of Chest P/A View (Digital)",
-        testPrice:400,
+        testName: "Serum Creatinine",
+        testPrice: 400,
       },
       {
-        testName:"Portable Ultrasonogram of Whole Abdomen(P722)",
-        testPrice:3000,
+        testName: "Urine R/E",
+        testPrice: 400,
       },
       {
-        testName:"Needle, Tube & Reg. Charges",
-        testPrice:110,
+        testName: "ECG",
+        testPrice: 400,
       },
-      
+      {
+        testName: "Digital X-Ray of Chest P/A View (Digital)",
+        testPrice: 600,
+      },
+      {
+        testName: "Ultrasonography of Whole Abdomen",
+        testPrice: 2500,
+      },
+      {
+        testName: "Needle, Tube & Reg. Charges",
+        testPrice: 110,
+      },
     ],
-    discountedPrice: 100,
+    discountedPrice: 7180,
   },
   {
-    packageID: "3",
-    packageName: "Package-3",
+    packageID: 3,
+    packageHeading: "Package-2",
+    packageName: "",
     packageIncludes: [
       {
-        testName:"Complete Blood Count (CBC)",
-        testPrice:400,
+        testName: "Complete Blood Count (CBC)",
+        testPrice: 400,
       },
       {
-        testName:"Random Plasma glucose",
-        testPrice:200,
+        testName: "Blood Sugar (Fasting & 2 hrs ABF)",
+        testPrice: 400,
       },
       {
-        testName:"Lipid Profile (Random)",
-        testPrice:1400,
+        testName: "HbA1c",
+        testPrice: 1400,
       },
       {
-        testName:"Blood Grouping & RH Factor",
-        testPrice:300,
+        testName: "Lipid Profile (Fasting)",
+        testPrice: 1400,
+      },
+
+      {
+        testName: "Liver Function Test",
+        testPrice: 1000,
       },
       {
-        testName:"Serum Creatinine",
-        testPrice:400,
+        testName: "Serum Creatinine",
+        testPrice: 400,
       },
       {
-        testName:"HBs Ag",
-        testPrice:1000,
+        testName: "Serum Uric Acid",
+        testPrice: 600,
       },
       {
-        testName:"Urine R/E",
-        testPrice:400,
+        testName: "Serum Electrolytes",
+        testPrice: 1000,
       },
       {
-        testName:"ECG",
-        testPrice:400,
+        testName: "TSH",
+        testPrice: 1000,
       },
       {
-        testName:"Digital X-Ray of Chest P/A View (Digital)",
-        testPrice:400,
+        testName: "HBsAg",
+        testPrice: 1000,
       },
       {
-        testName:"Portable Ultrasonogram of Whole Abdomen(P722)",
-        testPrice:3000,
+        testName: "PSA",
+        testPrice: 1400,
       },
       {
-        testName:"Needle, Tube & Reg. Charges",
-        testPrice:110,
+        testName: "Urine R/E",
+        testPrice: 400,
       },
-      
+      {
+        testName: "ECG",
+        testPrice: 400,
+      },
+      {
+        testName: "Digital X-Ray of Chest P/A View (Digital)",
+        testPrice: 600,
+      },
+      {
+        testName: "Ultrasonography of Whole Abdomen",
+        testPrice: 2500,
+      },
+      {
+        testName: "Needle, Tube & Reg. Charges",
+        testPrice: 130,
+      },
     ],
-    discountedPrice: 100,
+    discountedPrice: 10650,
   },
   {
-    packageID: "4",
-    packageName: "Package-4",
+    packageID: 4,
+    packageHeading: "Package-4",
+    packageName: "",
     packageIncludes: [
       {
-        testName:"Complete Blood Count (CBC)",
-        testPrice:400,
+        testName: "Complete Blood Count (CBC)",
+        testPrice: 400,
       },
       {
-        testName:"Random Plasma glucose",
-        testPrice:200,
+        testName: "Blood Sugar (Fasting & 2 hrs ABF)",
+        testPrice: 400,
       },
       {
-        testName:"Lipid Profile (Random)",
-        testPrice:1400,
+        testName: "HbA1c",
+        testPrice: 1400,
       },
       {
-        testName:"Blood Grouping & RH Factor",
-        testPrice:300,
+        testName: "Lipid Profile (Fasting)",
+        testPrice: 1400,
+      },
+
+      {
+        testName: "Liver Function Test",
+        testPrice: 1000,
       },
       {
-        testName:"Serum Creatinine",
-        testPrice:400,
+        testName: "Serum Creatinine",
+        testPrice: 400,
       },
       {
-        testName:"HBs Ag",
-        testPrice:1000,
+        testName: "Serum Uric Acid",
+        testPrice: 600,
       },
       {
-        testName:"Urine R/E",
-        testPrice:400,
+        testName: "Serum Electrolytes",
+        testPrice: 1000,
       },
       {
-        testName:"ECG",
-        testPrice:400,
+        testName: "TSH",
+        testPrice: 1000,
       },
       {
-        testName:"Digital X-Ray of Chest P/A View (Digital)",
-        testPrice:400,
+        testName: "HBsAg",
+        testPrice: 1000,
       },
       {
-        testName:"Portable Ultrasonogram of Whole Abdomen(P722)",
-        testPrice:3000,
+        testName: "Pap Smear",
+        testPrice: 1200,
       },
       {
-        testName:"Needle, Tube & Reg. Charges",
-        testPrice:110,
+        testName: "Urine R/E",
+        testPrice: 400,
       },
-      
+      {
+        testName: "ECG",
+        testPrice: 400,
+      },
+      {
+        testName: "Digital X-Ray of Chest P/A View (Digital)",
+        testPrice: 600,
+      },
+      {
+        testName: "Mammography of Both Breast",
+        testPrice: 3000,
+      },
+      {
+        testName: "Ultrasonography of Whole Abdomen",
+        testPrice: 2500,
+      },
+      {
+        testName: "Needle, Tube & Reg. Charges",
+        testPrice: 230,
+      },
     ],
-    discountedPrice: 100,
+    discountedPrice: 12850,
   },
   {
-    packageID: "5",
-    packageName: "Package-5",
+    packageID: 5,
+    packageHeading: "Package-5",
+    packageName: "For 40 Years And Above",
     packageIncludes: [
       {
-        testName:"Complete Blood Count (CBC)",
-        testPrice:400,
+        testName: "Complete Blood Count (CBC)",
+        testPrice: 400,
       },
       {
-        testName:"Random Plasma glucose",
-        testPrice:200,
+        testName: "Blood Sugar (Fasting & 2 hrs ABF)",
+        testPrice: 400,
       },
       {
-        testName:"Lipid Profile (Random)",
-        testPrice:1400,
+        testName: "HbA1c",
+        testPrice: 1400,
       },
       {
-        testName:"Blood Grouping & RH Factor",
-        testPrice:300,
+        testName: "Lipid Profile (Fasting)",
+        testPrice: 1400,
+      },
+
+      {
+        testName:
+          "Liver Function Test \n(SGPT, Alkaline Phosphar, S.Bilirubin)",
+        testPrice: 1000,
       },
       {
-        testName:"Serum Creatinine",
-        testPrice:400,
+        testName: "Kidney Function Test (S.Creatinine, S.Urea, Electrolytes)",
+        testPrice: 1900,
       },
       {
-        testName:"HBs Ag",
-        testPrice:1000,
+        testName: "C-Reactive Protein",
+        testPrice: 600,
       },
       {
-        testName:"Urine R/E",
-        testPrice:400,
+        testName: "TSH",
+        testPrice: 1000,
       },
       {
-        testName:"ECG",
-        testPrice:400,
+        testName: "HBsAg",
+        testPrice: 1000,
       },
       {
-        testName:"Digital X-Ray of Chest P/A View (Digital)",
-        testPrice:400,
+        testName: "Urine R/E",
+        testPrice: 400,
       },
       {
-        testName:"Portable Ultrasonogram of Whole Abdomen(P722)",
-        testPrice:3000,
+        testName: "ECG",
+        testPrice: 400,
       },
       {
-        testName:"Needle, Tube & Reg. Charges",
-        testPrice:110,
+        testName: "Digital X-Ray of Chest P/A View (Digital)",
+        testPrice: 600,
       },
-      
+      {
+        testName: "Colour Doppler Echo",
+        testPrice: 3000,
+      },
+      {
+        testName: "ETT",
+        testPrice: 3000,
+      },
+      {
+        testName: "Ultrasonography of Whole Abdomen",
+        testPrice: 2500,
+      },
+      {
+        testName: "Needle, Tube & Reg. Charges",
+        testPrice: 130,
+      },
     ],
-    discountedPrice: 100,
-  }
+    discountedPrice: 14630,
+  },
 ];
+
+const doctorData1 = {
+  doctors: [
+    {
+      drID: 1,
+      drName: "Asso. Prof. Dr. Ashraful islam",
+      drSpecilist: "Orthopaedic Surgery",
+      drDegree: "MBBS. MS(Ortho)",
+      chember: [
+        {
+          branch: "English Road",
+          building: "Bhaban-1",
+          room: "401",
+          weekday: [
+            {
+              day: "Saturday",
+              time: "8:00 PM - 9:30 PM",
+            },
+            {
+              day: "Wednesday",
+              time: "8:00 PM - 9:30 PM",
+            },
+          ],
+          assistantName: "Anis",
+          assistantGender: "Male",
+          ext: "111421",
+          assistantMobile: "01768431923",
+        },
+        {
+          branch: "Dhanmondi",
+          building: "Bhaban-1",
+          room: "606",
+          weekday: [
+            {
+              day: "Saturday",
+              time: "10:00 AM - 1:30 PM",
+            },
+            {
+              day: "Friday",
+              time: "10:00 AM - 1:30 PM",
+            },
+          ],
+          assistantName: "Anis",
+          assistantGender: "Male",
+          ext: "111421",
+          assistantMobile: "01768431923",
+        },
+      ],
+      drNumber: "01711563450",
+      email: "mnislam3512@gmail.com",
+      drGender: "Male",
+      newPatientVisit: "2000",
+      oldPatient: "2000",
+      report: "Free",
+      image: ASSO_PROF_DR_ASHRAFUL_ISLAM,
+    },
+    // More doctors ...
+    {
+      drID: 2,
+      drName: "Asst. Prof. Dr. Uthpol Kumar Datta",
+      drSpecilist: "ENT, Head & Neck Surgery",
+      drDegree: "MBBS.BCS.MS.BSMMUMBBS.BCS.MS.BSMMU",
+      chember: [
+        {
+          branch: "English Road",
+          building: "Bhaban-2",
+          room: "401",
+          weekday: [
+            {
+              day: "Saturday",
+              time: "8:00 PM - 9:30 PM",
+            },
+            {
+              day: "Wednesday",
+              time: "8:00 PM - 9:30 PM",
+            },
+          ],
+          assistantName: "Chan Miah",
+          assistantGender: "Male",
+          ext: "2249",
+          assistantMobile: "01736131369",
+        },
+      ],
+      drNumber: "01711364552",
+      email: "mnislam3512@gmail.com",
+      drGender: "Male",
+      newPatient: "1000",
+      oldPatient: "500",
+      report: "Free",
+      image: ASST_PROF_DR_UTHPOL_KUMAR_DATTA,
+    },
+    {
+      drID: 3,
+      drName: "Prof. Dr. Shymal Sarker",
+      drSpecilist: "Medicine",
+      drDegree: "MBBS (Dhaka) FCPS (Medicine Specilis)",
+      chember: [
+        {
+          branch: "English Road",
+          building: "Bhaban-2",
+          room: "304",
+          weekday: [
+            {
+              day: "Saturday",
+              time: "6:30 PM - 9:00 PM",
+            },
+            {
+              day: "Monday",
+              time: "6:30 PM - 9:00 PM",
+            },
+            {
+              day: "Wednesday",
+              time: "6:30 PM - 9:00 PM",
+            },
+            {
+              day: "Friday",
+              time: "6:30 PM - 9:00 PM",
+            },
+          ],
+          assistantName: "Chan Miah",
+          assistantGender: "Male",
+          ext: "2249",
+          assistantMobile: "01736131369",
+        },
+      ],
+      drNumber: "01711364552",
+      email: "mnislam3512@gmail.com",
+      drGender: "Male",
+      newPatient: "1000",
+      oldPatient: "500",
+      report: "Free",
+      image: PROF_DR_SHYMAL_SARKER,
+    },
+    {
+      drID: 4,
+      drName: "Prof. Dr. Biswas Akhtar Hossain",
+      drSpecilist: "Chest Medicine",
+      drDegree: "MBBS,DTCD,FCCP (Ex. Professor) Dhaka Medical College,Dhaka",
+      chember: [
+        {
+          branch: "Shantinagar",
+          building: "Bhaban-2",
+          room: "408",
+          weekday: [
+            {
+              day: "Saturday",
+              time: "04:00 PM - 06:00 PM",
+            },
+            {
+              day: "Sunday",
+              time: "04:00 PM - 06:00 PM",
+            },
+            {
+              day: "Monday",
+              time: "04:00 PM - 06:00 PM",
+            },
+            {
+              day: "Tuesday",
+              time: "04:00 PM - 06:00 PM",
+            },
+            {
+              day: "Wednesday",
+              time: "04:00 PM - 06:00 PM",
+            },
+            {
+              day: "Thursday",
+              time: "04:00 PM - 06:00 PM",
+            },
+          ],
+          assistantName: "Anis",
+          assistantGender: "Male",
+          ext: "111421",
+          assistantMobile: "01768431923",
+        },
+        {
+          branch: "Dhanmondi",
+          building: "Bhaban-6",
+          room: "201",
+          weekday: [
+            {
+              day: "Saturday",
+              time: "8:00 PM - 9:30 PM",
+            },
+            {
+              day: "Friday",
+              time: "8:00 PM - 9:30 PM",
+            },
+          ],
+        },
+      ],
+      drNumber: "01711364552",
+      email: "mnislam3512@gmail.com",
+      drGender: "Male",
+      newPatient: "2000",
+      oldPatient: "2000",
+      report: "Free",
+      image: PROF_DR_BISWAS_AKHTAR_HOSSAIN,
+    },
+    {
+      drID: 5,
+      drName: "Asst. Prof. Dr. Hena Khatun",
+      drSpecilist: "Chest Medicine",
+      drDegree: "MBBS,BCS,DTCD,MD (Dhaka Medical College,Dhaka)",
+      chember: [
+        {
+          branch: "Shantinagar",
+          building: "Bhaban-2",
+          room: "413",
+          weekday: [
+            {
+              day: "Saturday",
+              time: "07:30 PM - 09:00 PM",
+            },
+            {
+              day: "Sunday",
+              time: "07:30 PM - 09:00 PM",
+            },
+            {
+              day: "Monday",
+              time: "07:30 PM - 09:00 PM",
+            },
+            {
+              day: "Tuesday",
+              time: "07:30 PM - 09:00 PM",
+            },
+            {
+              day: "Wednesday",
+              time: "07:30 PM - 09:00 PM",
+            },
+            {
+              day: "Thursday",
+              time: "07:30 PM - 09:00 PM",
+            },
+          ],
+          assistantName: "Anis",
+          assistantGender: "Male",
+          ext: "111421",
+          assistantMobile: "01768431923",
+        },
+      ],
+      drNumber: "01711563450",
+      email: "Khatun@gmail.com",
+      drGender: "Female",
+      newPatientVisit: "2000",
+      oldPatient: "2000",
+      report: "Free",
+      image: ASST_PROF_DR_HENA_KHATUN,
+    },
+    {
+      drID: 6,
+      drName: "Prof. Dr. Aparna Das",
+      drSpecilist: "Medicine",
+      drDegree:
+        "MBBS,FCPS,MD,DEM Sir Salimullah Medical College & Mitford Hospital",
+      chember: [
+        {
+          branch: "Shantinagar",
+          building: "Bhaban-2",
+          room: "304",
+          weekday: [
+            {
+              day: "Saturday",
+              time: "04:00 PM - 06:00 PM",
+            },
+            {
+              day: "Sunday",
+              time: "04:00 PM - 06:00 PM",
+            },
+            {
+              day: "Monday",
+              time: "04:00 PM - 06:00 PM",
+            },
+            {
+              day: "Tuesday",
+              time: "04:00 PM - 06:00 PM",
+            },
+            {
+              day: "Wednesday",
+              time: "04:00 PM - 06:00 PM",
+            },
+            {
+              day: "Thursday",
+              time: "04:00 PM - 06:00 PM",
+            },
+          ],
+          assistantName: "Anis",
+          assistantGender: "Male",
+          ext: "111421",
+          assistantMobile: "01768431923",
+        },
+      ],
+      drNumber: "01711563450",
+      email: "mnislam3512@gmail.com",
+      drGender: "Female",
+      newPatientVisit: "2000",
+      oldPatient: "2000",
+      report: "Free",
+      image: PROF_DR_APARNA_DAS,
+    },
+  ],
+};
 
 export {
   ServiceCost,
@@ -42120,5 +43154,6 @@ export {
   notice,
   reportDownload,
   doctorData,
+  doctorData1,
   healthPackages,
 };

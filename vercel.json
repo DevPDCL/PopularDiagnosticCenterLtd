@@ -5,7 +5,7 @@
             "dest": "/"
         },
         {
-            "src": "/report",
+            "src": "/patient",
             "dest": "/"
         },
         {
@@ -25,7 +25,7 @@
             "dest": "/"
         },
         {
-            "src": "/modal",
+            "src": "/branch",
             "dest": "/"
         },
         {
@@ -47,6 +47,36 @@
         {
             "src": "/about",
             "dest": "/"
+        },
+        {
+            "src": "/director",
+            "dest": "/"
+        },
+        {
+            "src": "/doctorsearch",
+            "dest": "/"
+        },
+        {
+            "src": "/doctordetail",
+            "dest": "/"
+        },
+        {
+            "src": "/notification",
+            "dest": "/"
+        },
+        {
+            "src": "/goals",
+            "dest": "/"
+        },
+        {
+            "src": "/tech",
+            "dest": "/"
+        },
+        {
+            "src": "/chairman",
+            "dest": "/"
         }
+        
+        
     ]
 }

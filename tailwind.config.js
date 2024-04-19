@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   mode: "jit",
   theme: {
     extend: {
@@ -20,7 +20,7 @@ module.exports = {
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
-        "PDCL-green": "#417D41",
+        "PDCL-green": "#00A66C",
       },
       lighting: {
         neon: "text-white text-shadow-lg stroke-2 stroke-white",
@@ -38,9 +38,10 @@ module.exports = {
       backgroundImage: {},
     },
   },
-  animation: { // This is required to use the custom keyframe
+  animation: {
+    // This is required to use the custom keyframe
     // ... existing animations
-    blink: 'blink 1s linear infinite', // Define the blink animation
+    blink: "blink 1s linear infinite", // Define the blink animation
   },
   plugins: [
     function ({ addUtilities }) {

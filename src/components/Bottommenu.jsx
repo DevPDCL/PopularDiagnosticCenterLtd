@@ -1,20 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { styles } from "../styles";
-import { BallCanvas } from "./canvas";
-import { SectionWrapper } from "../hoc";
-import { technologies } from "../constants";
-import img from "../assets/link.jpg";
-import back from "../assets/back.jpg";
-import { useNavigate, Link } from "react-router-dom";
-import { healh, dical, cover, arrow } from "../assets";
+import { Link } from "react-router-dom";
 import { Tooltip } from "@material-tailwind/react";
 import "./tabs.css";
 
-import {
-  Popover,
-  PopoverHandler,
-  PopoverContent,
-} from "@material-tailwind/react";
 const Bottommenu = () => {
   const [isVisible, setIsVisible] = useState(true);
 
@@ -28,18 +16,18 @@ const Bottommenu = () => {
     return () => window.removeEventListener("scroll", handleScroll); // Cleanup
   }, []);
   return (
-    <div>
-      <div className="sm:hidden mx-auto">
-        <Link to="/modal">
+    <div className="">
+      <div className="  sm:hidden  mx-auto">
+        <Link to="/branch" target="_blank" rel="noopener noreferrer">
           {" "}
           <Tooltip
-            className="bg-gray-900/50 p-3 font-extrabold rounded-none"
+            className="bg-gray-900/50 z-20 p-3 font-extrabold rounded-none"
             content="Branches Hotline"
             placement="top"
           >
             <a
               target="_blank"
-              className={`fixed right-[310px] sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-[#417D41] shadow-md ${
+              className={`fixed right-[310px] z-20 sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-emerald-900/80 shadow-md ${
                 isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
               }`}
             >
@@ -54,16 +42,16 @@ const Bottommenu = () => {
           </Tooltip>
         </Link>
 
-        <Link to="/sample">
+        <Link to="/sample" target="_blank" rel="noopener noreferrer">
           {" "}
           <Tooltip
-            className="bg-gray-900/50 p-3 font-extrabold rounded-none"
+            className="bg-gray-900/50 p-3 z-20 font-extrabold rounded-none"
             content="Home Sample Collection"
             placement="top"
           >
             <a
               target="_blank"
-              className={`fixed right-[250px] sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-[#417D41] shadow-md ${
+              className={`fixed right-[250px] sm:hidden z-20 border-[1px] border-gray-200/90 bottom-0 bg-emerald-900/80 shadow-md ${
                 isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
               }`}
             >
@@ -78,16 +66,16 @@ const Bottommenu = () => {
           </Tooltip>
         </Link>
 
-        <Link to="">
+        <Link to="" target="_blank" rel="noopener noreferrer">
           {" "}
           <Tooltip
-            className="bg-gray-900/50 p-3 font-extrabold rounded-none"
+            className="bg-gray-900/50 p-3 font-extrabold z-20 rounded-none"
             content="Video Consutancy"
             placement="top"
           >
             <a
               target="_blank"
-              className={`fixed right-[190px] sm:hidden   bottom-0 bg-[#417D41] border-[1px] border-gray-200/90 shadow-md ${
+              className={`fixed right-[190px] sm:hidden  z-20 bottom-0 bg-emerald-900/80 border-[1px] border-gray-200/90 shadow-md ${
                 isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
               }`}
             >
@@ -102,16 +90,16 @@ const Bottommenu = () => {
           </Tooltip>
         </Link>
 
-        <Link to="/report">
+        <Link to="/patient" target="_blank" rel="noopener noreferrer">
           {" "}
           <Tooltip
-            className="bg-gray-900/50 p-3 font-extrabold rounded-none"
+            className="bg-gray-900/50 p-3 font-extrabold z-20 rounded-none"
             content="Report Download"
             placement="top"
           >
             <a
               target="_blank"
-              className={`fixed right-[130px] sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-[#417D41] shadow-md ${
+              className={`fixed right-[130px] sm:hidden z-20 border-[1px] border-gray-200/90 bottom-0 bg-emerald-900/80 shadow-md ${
                 isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
               }`}
             >
@@ -126,16 +114,16 @@ const Bottommenu = () => {
           </Tooltip>
         </Link>
 
-        <Link to="/complain">
+        <Link to="/complain" target="_blank" rel="noopener noreferrer">
           {" "}
           <Tooltip
-            className="bg-gray-900/50 p-3 font-extrabold rounded-none"
+            className="bg-gray-900/50 p-3 font-extrabold z-20 rounded-none"
             content="Complain Submission"
             placement="top"
           >
             <a
               target="_blank"
-              className={`fixed right-[70px] sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-[#417D41] shadow-md ${
+              className={`fixed right-[70px] sm:hidden z-20 border-[1px] border-gray-200/90 bottom-0 bg-emerald-900/80 shadow-md ${
                 isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
               }`}
             >
@@ -150,16 +138,16 @@ const Bottommenu = () => {
           </Tooltip>
         </Link>
 
-        <Link to="">
+        <Link to="" target="_blank" rel="noopener noreferrer">
           {" "}
           <Tooltip
-            className="bg-gray-900/50 p-3 font-extrabold rounded-none"
+            className="bg-gray-900/50 p-3 z-20 font-extrabold rounded-none"
             content="Messanger Chat"
             placement="top"
           >
             <a
               target="_blank"
-              className={`fixed right-[10px]    sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-[#417D41] shadow-md ${
+              className={`fixed right-[10px]  z-20  sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-emerald-900/80 shadow-md ${
                 isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
               }`}
             >

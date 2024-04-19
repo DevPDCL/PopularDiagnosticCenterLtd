@@ -7,7 +7,6 @@ import {
   Sidemenu,
   Navbar,
   Bottommenu,
-  Notification,
   Tech,
   Works,
 } from "../components";
@@ -15,17 +14,17 @@ import {
 function Layout() {
   return (
     <div className="bg-[#F5FFFA]">
-      <Nav />
+      <Nav  />
 
-      <Navbar />
+      <Navbar  />
       <Sidemenu />
       <Bottommenu />
       <Hero />
-      <Notification />
+
       <Works />
       <Feedbacks />
-      <Cor />
-      <Tech />
+      <Cor  />
+      <Tech  />
     </div>
   );
 }

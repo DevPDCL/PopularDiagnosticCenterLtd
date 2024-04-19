@@ -2,10 +2,8 @@ import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc";
-import { styles } from "../styles";
-import { logo } from "../assets";
 import { projects1 } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { fadeIn } from "../utils/motion";
 
 const Card = ({
   index,
@@ -37,10 +35,10 @@ const Card = ({
           </div>
 
           <div>
-            <h3 className="text-[#417D41] text-[32px] ml-3 font-bold text-start font-[Time-New-Romans] ">
+            <h3 className="text-[#006642] text-[32px] ml-3 font-bold text-start font-[Time-New-Romans] ">
               {description1}
             </h3>
-            <p className=" text-[#417D41] text-[16px] ml-3 font-bold text-start font-[Time-New-Romans] ">
+            <p className=" text-[#006642] text-[16px] ml-3 font-bold text-start font-[Time-New-Romans] ">
               {name1}
             </p>
           </div>
