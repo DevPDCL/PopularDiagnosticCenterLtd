@@ -10,7 +10,7 @@ const searchBoxVariants = {
 
 const BranchCard = ({ branch, handleReportDownload }) => {
   return (
-    <div className="bg-gradient-to-b from-white to-[#417D414b] hover:bg-gray-200 shadow-2xl m-2 rounded-2xl sm:w-[150px] w-full">
+    <div className="bg-gradient-to-b from-white to-[#417D414b]  border-[#B2D8B2] border-[2px] hover:bg-gray-200 shadow-2xl m-2 rounded-2xl sm:w-[150px] w-full">
       <li
         key={branch.braID}
         m-4

@@ -66,7 +66,7 @@ const ProjectCard = ({
 
   return (
     
-    <div className="bg-gradient-to-b from-white to-[#f0fff0] hover:bg-gray-100 shadow-2xl rounded-2xl sm:w-[299px] w-full">
+    <div className="bg-gradient-to-b from-white to-[#f0fff0] border-[#B2D8B2] border-[4px] hover:bg-gray-100 shadow-2xl rounded-2xl sm:w-[299px] w-full">
       <div className="relative w-full">
         <img
           src={image}
@@ -155,7 +155,7 @@ const Branch = () => {
         />
       </div>
 
-      <div className="flex mx-auto pb-10 pt-[100px] sm:w-[80%] p-3  max-w-7xl justify-center flex-wrap gap-4">
+      <div className="flex mx-auto pb-10 pt-[110px] sm:w-[80%] p-3  max-w-7xl justify-center flex-wrap gap-4">
         {filteredAndSearchedProjects.map((project) => (
           <ProjectCard key={project.branchID} {...project} />
         ))}

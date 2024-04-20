@@ -22,7 +22,7 @@ const ProjectCard = (
   return (
     <>
       <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-        <div className="bg-gradient-to-b from-white to-[#f0fff0] hover:bg-gray-100 shadow-2xl rounded-2xl h-auto sm:w-[299px] w-full">
+        <div className="bg-gradient-to-b from-white to-[#f0fff0]  border-[#B2D8B2] border-[4px] hover:bg-gray-100 shadow-2xl rounded-2xl h-auto sm:w-[299px] w-full">
           <Popover placement="center">
             <PopoverHandler>
               <div

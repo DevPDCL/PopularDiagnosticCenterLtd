@@ -5,42 +5,43 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn } from "../utils/motion";
 
-function Number({ n }){
-   const countRef = useRef(null);
-   useEffect(() => {
-     const observer = new IntersectionObserver((entries) => {
-       const entry = entries[0];
-       if (entry.isIntersecting) {
-         // Start the animation when the element is visible
-         setIsVisible(true);
-       }
-     });
+function Number({ n }) {
+  const countRef = useRef(null);
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      const entry = entries[0];
+      if (entry.isIntersecting) {
+        // Start the animation when the element is visible
+        setIsVisible(true);
+      }
+    });
 
-     if (countRef.current) {
-       observer.observe(countRef.current);
-     }
+    if (countRef.current) {
+      observer.observe(countRef.current);
+    }
 
-     return () => {
-       if (observer) {
-         observer.disconnect();
-       }
-     };
-   }, [countRef.current]);
+    return () => {
+      if (observer) {
+        observer.disconnect();
+      }
+    };
+  }, [countRef.current]);
 
-   const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
   const { number } = useSpring({
-    from: { number: 0},
+    from: { number: 0 },
     number: n,
     delay: 500,
-    config: { mass: 1, tension: 10, friction: 10},
+    config: { mass: 1, tension: 10, friction: 10 },
   });
   return (
-  <div ref={countRef} className="count-section">
-    {isVisible && <animated.div>{number.to((n) => n.toFixed(0))}</animated.div>}
-  </div>
-  )
+    <div ref={countRef} className="count-section">
+      {isVisible && (
+        <animated.div>{number.to((n) => n.toFixed(0))}</animated.div>
+      )}
+    </div>
+  );
 }
-
 
 const ProjectCard = ({
   index,
@@ -49,20 +50,21 @@ const ProjectCard = ({
   tags,
   video,
   source_code_link,
+  link,
 }) => {
   return (
     <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div className="m grid md:grid-row-3 items-center w-full  justify-center mx-auto md:gap-0 ">
-        <div className="bg-gradient-to-b from-white to-[#f0fff0] hover:bg-gray-100 p-0 shadow-2xl rounded-2xl w-auto text-center">
-          <div className="relative w-auto h-auto">
-            <video
-              src={video}
-              alt="project_image"
-              className="w-full shadow-xl rounded-3xl object-cover opacity-95 p-2"
-              autoPlay
-              loop
-              muted
-            />
+<div className="items-center w-full justify-center mx-auto">
+  <div className="bg-gradient-to-r from-white to-[#f0fff0] hover:bg-gray-100 flex lg:grid lg:grid-cols-3 flex-col shadow-2xl rounded-2xl w-auto text-center">
+    <div className="lg:col-span-2 relative h-full">
+      <video
+        src={video}
+        alt="project_image"
+        className="w-full shadow-xl rounded-3xl object-cover opacity-95 p-2"
+        autoPlay
+        loop
+        muted
+      />
 
             <div className="absolute inset-0 flex justify-end p-3 card-img_hover">
               <div
@@ -77,16 +79,25 @@ const ProjectCard = ({
             </div>
           </div>
 
-          <div className="mt-0 p-5">
-            <h3 className="text-gray-900 font-medium p-2 font-ubuntu text-[24px]">
-              {name}
-            </h3>
-            <p className="mt-2 text-gray-500 font-medium font-ubuntu p-2 text-[16px]">
-              {description}
-            </p>
+          <div className="lg:col-span-1 p-5 my-auto">
+            <div className="w-full border-l-[5px] border-[#417D41] px-10 border-opacity-50 pl-2 text-start ml-3">
+              <h3 className="text-[#417D41] font-extrabold p-2 font-ubuntu text-[24px]">
+                {name}
+              </h3>
+              <p className="mt-2 text-gray-500 font-medium font-ubuntu p-2 text-[16px]">
+                {description}
+              </p>
+              <div className="flex justify-end items-center">
+                <button
+                  onClick={() => window.open(link, "_blank")}
+                  className="text-gray-500 font-ubuntu transition duration-300">
+                  View More
+                </button>
+              </div>
+            </div>
           </div>
 
-          <div className="mt-0 font-medium flex font-ubuntu flex-wrap p-2 gap-2">
+          {/* <div className="mt-0 font-medium flex font-ubuntu flex-wrap p-2 gap-2">
             {tags.map((tag) => (
               <p
                 key={`${name}-${tag.name}`}
@@ -94,7 +105,7 @@ const ProjectCard = ({
                 #{tag.name}
               </p>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
@@ -102,7 +113,6 @@ const ProjectCard = ({
 };
 
 const Works = () => {
- 
   return (
     <>
       <div className="fontFamily-ubuntu custom-gradient rounded-2xl shadow-top-2xl">
@@ -110,18 +120,18 @@ const Works = () => {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto grid max-w-2xl grid-rows-1 border-[#417D41] border-[4px] rounded-2xl shadow-2xl mt-[-130px] pt-5 bg-[#B2D8B2] gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-rows-1">
               <div className="lg:pr-8 lg:pt-4">
-              <div className="w-full border-l-[5px] border-[#417D41] px-10 border-opacity-50 pl-2 text-start ml-3">
-               <h1 className="text-slate-900/50 font-ubuntu font-extrabold text-[28px]">
-                 DISCOVER{" "}
-                 <span className="text-[#417D41] font-ubuntu">POPULAR</span>
-               </h1>
-               <p className="text-gray-700 font-ubuntu text-[16px] font-medium">
-                 Popular Diagnostic Centre Ltd. exists to provide a better
-                 patient experience. We are a one-stop-shop for your health,
-                 offering caring doctors, world-class diagnostics and much more
-                 world-class diagnostics and much more.
-               </p>
-             </div>
+                <div className="w-full border-l-[5px] border-[#417D41] px-10 border-opacity-50 pl-2 text-start ml-3">
+                  <h1 className="text-slate-900/50 font-ubuntu font-extrabold text-[28px]">
+                    DISCOVER{" "}
+                    <span className="text-[#417D41] font-ubuntu">POPULAR</span>
+                  </h1>
+                  <p className="text-gray-700 font-ubuntu text-[16px] font-medium">
+                    Popular Diagnostic Centre Ltd. exists to provide a better
+                    patient experience. We are a one-stop-shop for your health,
+                    offering caring doctors, world-class diagnostics and much
+                    more world-class diagnostics and much more.
+                  </p>
+                </div>
                 <div className="flex flex-wrap items-center justify-center mx-auto ">
                   <div className="flex flex-col items-center  mx-auto">
                     <div className="p-5 items-center mx-auto text-center">
@@ -167,17 +177,11 @@ const Works = () => {
           </h2>
         </div>
 
-        <div className="flex  mx-auto justify-center justify-items-center flex-wrap gap-3">
+        <div className="flex mx-auto justify-center justify-items-center flex-wrap gap-10">
           {projects.map((project) => (
             <ProjectCard key={project.id} {...project} />
           ))}
         </div>
-
-        <a href="/">
-          <p className="text-gray-500 pt-1 text-end pr-20 text-[20px] font-medium font-ubuntu">
-            View More.....
-          </p>
-        </a>
       </div>
     </>
   );

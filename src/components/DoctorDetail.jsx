@@ -41,7 +41,7 @@ const DoctorCard = ({ doctor }) => {
   };
 
   return (
-    <div className="card-container text-gray-500 bg-gradient-to-b from-white to-[#f0fff0] hover:bg-gray-100 shadow-2xl rounded-2xl sm:w-[299px] overflow-hidden flex flex-col justify-between">
+    <div className="card-container text-gray-500 bg-gradient-to-b from-white to-[#f0fff0] border-[#B2D8B2] border-[4px] hover:bg-gray-100 shadow-2xl rounded-2xl sm:w-[299px] overflow-hidden flex flex-col justify-between">
       <div>
         <div className="card-header relative w-full">
           {doctor.image ? (

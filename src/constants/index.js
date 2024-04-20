@@ -344,6 +344,7 @@ const projects = [
     ],
     video: diagn,
     source_code_link: "http://populardiagnostic.com/",
+    link: "/",
   },
   {
     id: 2,
@@ -362,6 +363,7 @@ const projects = [
     ],
     video: cons,
     source_code_link: "http://populardiagnostic.com/",
+    link: "/doctorsearch",
   },
   {
     id: 3,
@@ -380,6 +382,7 @@ const projects = [
     ],
     video: pakages,
     source_code_link: "http://populardiagnostic.com/",
+    link: "/health",
   },
 ];
 
