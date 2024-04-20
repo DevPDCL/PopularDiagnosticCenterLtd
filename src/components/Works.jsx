@@ -136,32 +136,32 @@ const Works = () => {
                   <div className="flex flex-col items-center  mx-auto">
                     <div className="p-5 items-center mx-auto text-center">
                       <h6 className="text-[#417D41]  font-bold font-ubuntu text-[60px]">
-                        <Number n={27} />
+                        <Number n={22} />
                       </h6>
                       <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
-                        DEPARTMENTS
+                      BRANCHES
                       </p>
                     </div>
                   </div>
                   <div className="flex items-center flex-col mx-auto ml-20">
                     <div className="p-5 items-center mx-auto text-center">
                       <h6 className="text-[#417D41] flex flex-row font-bold font-ubuntu text-[60px]">
-                        <Number n={5} />
+                        <Number n={7} />
                         <span>k+</span>
                       </h6>
                       <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
-                        DOCTORS
+                      SERVICES
                       </p>
                     </div>
                   </div>
                   <div className="flex flex-col items-center mx-auto ml-20">
                     <div className="p-5 items-center mx-auto text-center">
                       <h6 className="text-[#417D41] flex flex-row font-bold font-ubuntu text-[60px]">
-                        <Number n={27} />
+                        <Number n={82} />
                         <span>k+</span>
                       </h6>
                       <p className="text-gray-500  font-bold font-ubuntu text-[20px]">
-                        PATIENTS SERVED
+                      REGISTERED PATIENTS
                       </p>
                     </div>
                   </div>
