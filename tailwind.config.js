@@ -45,20 +45,18 @@ module.exports = {
   },
   plugins: [
     function ({ addUtilities }) {
-      addUtilities({
-        ".gradient-alt-flow": {
-          backgroundImage:
-            "linear-gradient(to right, #006642, #00d4ff 40%, #006642 80%)",
-          backgroundSize: "200% 100%",
-          animation: "flow 5s linear infinite",
-          "@keyframes flow": {
-            "0%": { backgroundPosition: "100% 0" },
-            "100%": { backgroundPosition: "-100% 0" },
-          },
-          WebkitBackgroundClip: "text",
-          WebkitTextFillColor: "transparent",
+      const newUtilities = {
+        '.gradient-alt-flow': {
+          backgroundImage: 'linear-gradient(to right, #B2D8B2, #89C2D9 40%, #B2D8B2 80%)',
+          backgroundSize: '200% 100%',
+          animation: 'flow 5s linear infinite',
         },
-      });
-    },
+        '@keyframes flow': {
+          '0%': { backgroundPosition: '100% 0' },
+          '100%': { backgroundPosition: '-100% 0' },
+        },
+      }
+      addUtilities(newUtilities)
+    }
   ],
 };

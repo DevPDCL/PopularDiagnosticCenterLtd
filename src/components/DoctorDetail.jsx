@@ -57,7 +57,7 @@ const DoctorCard = ({ doctor }) => {
           )}
         </div>
         <div className="card-name bg-[#f0fff0] p-2 pt-4 text-center">
-          <h1 className="text-[#006642] font-ubuntu font-bold text-xl truncate">
+          <h1 className="text-[#417D41] font-ubuntu font-bold text-xl truncate">
             {doctor.drName}
           </h1>
         </div>
@@ -167,7 +167,7 @@ useEffect(() => {
       <Bottommenu />
       <div className="sticky top-[99px] z-10  rounded-xl shadow-2xl bg-white flex flex-col-reverse gap-2 lg:flex-row p-5 row-span-1 mx-12 xl:mx-auto xl:max-w-7xl justify-between">
         <motion.input
-          className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200  rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
+          className="px-2 py-1 border text-[#417D41] border-PDCL-green bg-gray-200  rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
           type="text"
           placeholder="Search by doctor's name..."
           layout
@@ -179,7 +179,7 @@ useEffect(() => {
         />
 
         <motion.select
-          className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
+          className="px-2 py-1 border text-[#417D41] border-PDCL-green bg-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
           onChange={(e) => setSelectedBranch(e.target.value)}
           layout
           transition={spring}
@@ -195,7 +195,7 @@ useEffect(() => {
         </motion.select>
 
         <motion.select
-          className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
+          className="px-2 py-1 border text-[#417D41] border-PDCL-green bg-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
           onChange={(e) => setSelectedSpecialization(e.target.value)}
           layout
           transition={spring}
@@ -211,7 +211,7 @@ useEffect(() => {
         </motion.select>
 
         <motion.select
-          className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
+          className="px-2 py-1 border text-[#417D41] border-PDCL-green bg-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
           onChange={(e) => setSelectedDay(e.target.value)}
           layout
           transition={spring}

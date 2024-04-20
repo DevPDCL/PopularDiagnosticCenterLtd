@@ -28,7 +28,7 @@ function Sign() {
 
       <div className="absolute w-full h-full  top-0 left-0 bg-gray-900/50"></div>
       <div
-        className={`${styles.paddingX} absolute  w-[400px] h-auto inset-0 justify-center bg-white items-center mx-auto  text-center flex flex-col text-[#006642]`}
+        className={`${styles.paddingX} absolute  w-[400px] h-auto inset-0 justify-center bg-white items-center mx-auto  text-center flex flex-col text-[#417D41]`}
       >
         <Card color="transparent" shadow={false}>
           <Link to="/">
@@ -211,7 +211,7 @@ function Sign() {
               }
               containerProps={{ className: "-ml-2.5" }}
             />
-            <Button className="mt-6 bg-[#006642] " fullWidth>
+            <Button className="mt-6 bg-[#417D41] " fullWidth>
               sign up
             </Button>
             <Typography color="gray" className="mt-4 text-center font-normal">

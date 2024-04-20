@@ -246,17 +246,17 @@ const handleClick1 = () => {
         <div
           className={`${styles.paddingX} absolute  flex   max-w-7xl mx-auto inset-1 justify-center items-bottom text-center sm:w-[80%]  flex-col text-gray-900`}
         >
-          <div className="bg-white rounded">
+          <div className="bg-white rounded-lg">
             <div class="mb-4 ">
               <ul class=" text-sm font-medium text-center text-gray-900 rounded shadow sm:flex dark:divide-gray-700 dark:text-gray-400">
                 <li class="w-full p-1 focus-within:z-10">
                   <a
                     href="#"
                     data-tabs-target="styled-profile"
-                    className={`inline-block w-full p-3 rounded text-gray-900 bg-[#417D41] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-3 rounded border-r  dark:border-gray-700  focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile"
-                        ? "bg-[#ffffff]"
-                        : "bg-[#417D41]"
+                      ? "bg-[#F0FFF0] text-PDCL-green font-bold border-[#B2D8B2]/50 border-t-[3px]"
+                      : "bg-[#417D41] text-[#ffffff]"
                     } "active focus:outline-none dark:bg-gray-700 dark:text-white"
                         : ""
                     `}
@@ -270,9 +270,9 @@ const handleClick1 = () => {
                   <a
                     href="#"
                     data-tabs-target="styled-profile1"
-                    className={`inline-block w-full p-3 rounded  bg-[#417D41] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-3 rounded shadow border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile1"
-                        ? "bg-[#ffffff] text-PDCL-green font-bold"
+                        ? "bg-[#F0FFF0] text-PDCL-green font-bold border-[#B2D8B2]/50 border-t-[3px]"
                         : "bg-[#417D41] text-[#ffffff]"
                     } "active focus:outline-none dark:bg-gray-700 dark:text-white"
                         : ""
@@ -287,10 +287,10 @@ const handleClick1 = () => {
                   <a
                     href="#"
                     data-tabs-target="styled-profile2"
-                    className={`inline-block w-full p-3 rounded text-gray-900 bg-[#417D41] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-3 rounded border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile2"
-                        ? "bg-[#ffffff]"
-                        : "bg-[#417D41]"
+                      ? "bg-[#F0FFF0] text-PDCL-green font-bold border-[#B2D8B2]/50 border-t-[3px]"
+                      : "bg-[#417D41] text-[#ffffff]"
                     } "active focus:outline-none dark:bg-gray-700 dark:text-white"
                         : ""
                     `}
@@ -317,7 +317,7 @@ const handleClick1 = () => {
                     <div className="grid md:grid-cols-9 md:gap-0">
                       <div className="relative z-0 col-span-3 p-1 w-full mb-0 group">
                         <select
-                          className="block py-2.5 px-0 w-full text-sm rounded-lg  text-gray-900 bg-gray-300 pl-2   peer"
+                          className="block py-2.5 px-0 w-full text-sm rounded-lg border-[#417D41]/50 border-[2px] focus:border-[3px] text-gray-900 bg-[#B2D8B2] pl-2   peer"
                           onChange={handleBranchChange1}
                           value={selectedBranch1}
                           transition={spring}
@@ -335,7 +335,7 @@ const handleClick1 = () => {
                       </div>
                       <div className="relative z-0 w-full p-1 col-span-3 mb-0 group">
                         <select
-                          className="block py-2.5 px-0 w-full text-sm rounded-lg  text-gray-900 bg-gray-300 pl-2   peer"
+                          className="block py-2.5 px-0 w-full text-sm rounded-lg border-[#417D41]/50 border-[2px] focus:border-[3px] text-gray-900 bg-[#B2D8B2] pl-2   peer"
                           onChange={handleSpecializationChange}
                           transition={spring}
                           whileTap={{ scale: 0.9 }}
@@ -352,7 +352,7 @@ const handleClick1 = () => {
                       </div>
                       <div className="relative col-span-3 p-1 mb-0 group">
                         <select
-                          className="block py-2.5 px-0 w-full text-sm rounded-lg  text-gray-900 bg-gray-300 pl-2   peer"
+                          className="block py-2.5 px-0 w-full text-sm rounded-lg border-[#417D41]/50 border-[2px] focus:border-[3px] text-gray-900 bg-[#B2D8B2] pl-2   peer"
                           onChange={handleDayChange}
                           transition={spring}
                           whileTap={{ scale: 0.9 }}
@@ -381,9 +381,9 @@ const handleClick1 = () => {
                           value={searchTerm1}
                           onChange={handleSearchChange1}
                           name="floating_first_name"
-                          placeholder="Test Name"
+                          placeholder="Doctor Name"
                           id="floating_first_name"
-                          className="block py-2.5 px-0 w-full text-sm rounded-lg dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green  text-gray-900 bg-gray-300 placeholder-gray-900  peer pl-2"
+                          className="block py-2.5 px-0 w-full border-[#417D41]/50 border-[2px] focus:border-[3px] text-sm rounded-lg dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green  text-gray-900 bg-[#B2D8B2] placeholder-gray-900  peer pl-2"
                           required
                         />
                         <section className="">
@@ -434,11 +434,11 @@ const handleClick1 = () => {
                         >
                           <button
                             type="button"
-                            className="text-gray-600 w-full rounded block col-span-7 mb-2 h-[43px] hover:text-gray-900 border bg-gray-300 shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642]"
+                            className="text-gray-600 w-full rounded block col-span-7 mb-2 h-[43px] hover:text-gray-900 border-[#417D41]/50 border-[2px] focus:border-[3px] bg-[#B2D8B2] shadow-2xl focus:ring-4 focus:outline-none focus:ring-[#417D41] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#417D41] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#417D41]"
                             onClick={handleClick1}
                           >
-                            Make An Appointment{" "}
-                            <span className="animate-ping">Now</span>
+                            Make Appointment{" "}
+                            <span className="test-">Now</span>
                           </button>
                         </Link>
                       </div>
@@ -448,7 +448,7 @@ const handleClick1 = () => {
                           <div className="flex w-full col-span-4 items-center">
                             {!isSearchVisible && (
                               <button
-                                className={`px-4 py-2 bg-gray-300 shadow-2xl mb-1 w-full mr-2 font-ubuntu font-medium col-span-4 text-gray-900 rounded ${
+                                className={`px-4 py-2 gradient-alt-flow border-[#417D41]/50 border-[2px] focus:border-[3px] shadow-2xl mb-1 w-full mr-2 font-ubuntu font-medium col-span-4 text-gray-700 rounded ${
                                   showSearchInput
                                     ? ""
                                     : "opacity-50 cursor-not-allowed"
@@ -457,8 +457,8 @@ const handleClick1 = () => {
                                 disabled={showSearchInput}
                               >
                                 <p class>
-                                  Chat{" "}
-                                  <span class=" drop-shadow-[0_1.0px_1.0px_rgba(0,0,0,0.5)] text-white gradient-alt-flow">
+                                  Chat with{" "}
+                                  <span class=" drop-shadow-[0_1.0px_1.0px_rgba(0,0,0,0.5)] font-semibold text-gray-700 ">
                                     AI Consultant
                                   </span>
                                 </p>
@@ -466,7 +466,7 @@ const handleClick1 = () => {
                             )}
                             {!isSearchVisible && (
                               <button
-                                className={`px-4 py-2 bg-gray-300 shadow-2xl  mb-1 w-full font-ubuntu font-medium col-span-4 text-gray-900 rounded ${
+                                className={`px-4 py-2 bg-[#B2D8B2] shadow-2xl border-[#417D41]/50 border-[2px] focus:border-[3px] mb-1 w-full font-ubuntu font-medium col-span-4 text-gray-900 rounded ${
                                   showSearchInput
                                     ? "opacity-50 cursor-not-allowed"
                                     : ""
@@ -474,7 +474,7 @@ const handleClick1 = () => {
                                 onClick={(handleSearchClick, handleShowClick)}
                                 disabled={!showSearchInput}
                               >
-                                Chat Human Consultant
+                                Chat with Human Consultant
                               </button>
                             )}
                             {isSearchVisible && (
@@ -587,7 +587,7 @@ const handleClick1 = () => {
                                   <div className="relative z-0 col-span-2 w-full  group">
                                     <button
                                       type="button"
-                                      className={`text-gray-600 w-full rounded block col-span-2 mb-0 h-[35px] hover:text-gray-900 border bg-gray-300 shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-4  text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642] ${
+                                      className={`text-gray-600 w-full rounded block col-span-2 mb-0 h-[35px] hover:text-gray-900 border bg-gray-300 shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#417D41] font-ubuntu text-[16px] font-bold px-4  text-center  dark:border-[#417D41] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#417D41] ${
                                         isVisible ? "" : "hidden"
                                       }`}
                                       onClick={(handleClick, handleSearchClick)}
@@ -620,7 +620,7 @@ const handleClick1 = () => {
                         <select
                           value={selectedBranch}
                           onChange={handleBranchChange}
-                          className="block py-2.5 px-0 w-full text-sm rounded-lg  text-gray-900 bg-gray-300 pl-2   peer"
+                          className="block py-2.5 px-0 w-full text-sm rounded-lg text-gray-900 bg-[#B2D8B2] pl-2 peer"
                         >
                           <option value="">Select Branch</option>
                           {ServiceCost.map((branch) => (
@@ -639,7 +639,7 @@ const handleClick1 = () => {
                           name="floating_first_name"
                           placeholder="Test Name"
                           id="floating_first_name"
-                          className="block py-2.5 px-0 w-full text-sm rounded-lg dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green  text-gray-900 bg-gray-300 placeholder-gray-900  peer pl-2"
+                          className="block py-2.5 px-0 w-full text-sm rounded-lg dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green  text-gray-900 bg-[#B2D8B2] placeholder-gray-900  peer pl-2"
                           required
                         />
                         <section className="">

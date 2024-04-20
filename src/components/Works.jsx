@@ -52,13 +52,13 @@ const ProjectCard = ({
 }) => {
   return (
     <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div className="m grid md:grid-row-3 items-center sm:w-[379px] w-full  justify-center mx-auto md:gap-0 ">
-        <div className="bg-gradient-to-b from-white to-[#00664218] text-black m-2 bg-gray-100/5 shadow-2xl rounded w-auto text-center">
+      <div className="m grid md:grid-row-3 items-center w-full  justify-center mx-auto md:gap-0 ">
+        <div className="bg-gradient-to-b from-white to-[#f0fff0] hover:bg-gray-100 p-0 shadow-2xl rounded-2xl w-auto text-center">
           <div className="relative w-auto h-auto">
             <video
               src={video}
               alt="project_image"
-              className="w-full h-[230px] rounded object-cover opacity-90"
+              className="w-full shadow-xl rounded-3xl object-cover opacity-95 p-2"
               autoPlay
               loop
               muted
@@ -161,13 +161,13 @@ const Works = () => {
           </div>
         </div>
 
-        <div className="flex flex-col mx-auto  max-w-7xl">
+        <div className="flex flex-col mx-auto">
           <h2 className="text-gray-500/50 pb-2 text-center pl-2 text-[28px] font-bold font-ubuntu">
             EXPLORE HEALTH PLUS
           </h2>
         </div>
 
-        <div className="flex  mx-auto p-0 justify-center  justify-items-center flex-wrap  gap-0">
+        <div className="flex  mx-auto justify-center justify-items-center flex-wrap gap-3">
           {projects.map((project) => (
             <ProjectCard key={project.id} {...project} />
           ))}

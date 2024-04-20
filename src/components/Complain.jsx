@@ -234,10 +234,10 @@ function Complain() {
         </Card>
       </div>
       <div className="flex max-w-[40rem]  bg-[#e2f0e5] pb-3 mx-auto">
-        <p className=" pt-3 text-[15px] me-auto text-[#006642] font-bold font-ubuntu">
+        <p className=" pt-3 text-[15px] me-auto text-[#417D41] font-bold font-ubuntu">
           Clear form
         </p>
-        <Button className="bg-[#006642] ms-auto">Submit</Button>
+        <Button className="bg-[#417D41] ms-auto">Submit</Button>
       </div>
       <Link to="/">
         <svg

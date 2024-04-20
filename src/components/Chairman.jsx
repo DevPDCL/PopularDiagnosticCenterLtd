@@ -18,7 +18,7 @@ const Chairman = () => {
                   <h1 className="text-gray-900 pt-10 text-[36px] font-bold">
                     Late Tahera Akhter
                   </h1>
-                  <p className="text-[#006642] text-[20px] font-medium">
+                  <p className="text-[#417D41] text-[20px] font-medium">
                     Chairman
                   </p>
                   <img src={LateTaheraAkhter} className="h-auto  p-5 w-auto" />
