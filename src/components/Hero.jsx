@@ -34,14 +34,14 @@ const searchBoxVariants = {
 };
 
 const ListHeader = () => (
-  <div className="flex justify-between  px-8 py-2 bg-gray-400 font-bold">
+  <div className="flex justify-between px-8 py-2 rounded-t-xl bg-[#417D41] text-white font-bold">
     <p>Service Name</p>
     <p>Service Cost</p>
   </div>
 );
 
 const Header = () => (
-  <div className="flex justify-between  px-8 py-2 bg-gray-400 font-bold">
+  <div className="flex justify-between px-8 py-2 rounded-t-xl bg-[#417D41] text-white font-bold">
     <p>Doctor Name</p>
     <p>Speciality</p>
   </div>
@@ -87,7 +87,7 @@ const Hero = ({ color }) => {
       <li
         key={service.serviceId}
         style={style}
-        className="flex justify-between px-4 py-2 bg-gray-300 hover:bg-gray-100"
+        className="flex justify-between px-4 py-2 rounded-md bg-[#F0FFF0] hover:bg-[#B2D8B2] border-[#417D41]/50 border-[2px]"
       >
         <p className="text-gray-600 font-ubuntu">{service.serviceName}</p>
         <p className="font-medium text-gray-700 font-ubuntu">
@@ -196,10 +196,10 @@ const handleShowClick = () => {
       <li
         key={doctor.SpecilizationID}
         style={style}
-        className="flex justify-between px-4 py-2 bg-gray-300 hover:bg-gray-100"
+        className="flex justify-between px-4 py-2 rounded-md bg-[#F0FFF0] hover:bg-[#B2D8B2] border-[#417D41]/50 border-[2px]"
       >
-        <p className="text-gray-600 font-ubuntu">{doctor.drName}</p>
-        <p className="text-gray-600 font-ubuntu">{doctor.specializationName}</p>
+        <p className="text-gray-600  font-ubuntu">{doctor.drName}</p>
+        <p className="text-gray-600  font-ubuntu">{doctor.specializationName}</p>
       </li>
     );
   };
@@ -246,18 +246,18 @@ const handleClick1 = () => {
         <div
           className={`${styles.paddingX} absolute  flex   max-w-7xl mx-auto inset-1 justify-center items-bottom text-center sm:w-[80%]  flex-col text-gray-900`}
         >
-          <div className="bg-white rounded-lg">
+          <div className="bg-white  rounded-lg">
             <div class="mb-4 ">
-              <ul class=" text-sm font-medium text-center text-gray-900 rounded shadow sm:flex dark:divide-gray-700 dark:text-gray-400">
-                <li class="w-full p-1 focus-within:z-10">
+              <ul class=" text-sm font-medium text-center text-gray-900 rounded shadow sm:flex">
+                <li class="w-full p-1">
                   <a
                     href="#"
                     data-tabs-target="styled-profile"
-                    className={`inline-block w-full p-3 rounded border-r  dark:border-gray-700  focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-3 rounded border-r focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile"
                       ? "bg-[#F0FFF0] text-PDCL-green font-bold border-[#B2D8B2]/50 border-t-[3px]"
                       : "bg-[#417D41] text-[#ffffff]"
-                    } "active focus:outline-none dark:bg-gray-700 dark:text-white"
+                    } "active focus:outline-none"
                         : ""
                     `}
                     aria-current="page"
@@ -266,15 +266,15 @@ const handleClick1 = () => {
                     Doctors
                   </a>
                 </li>
-                <li class="w-full p-1 focus-within:z-10">
+                <li class="w-full p-1">
                   <a
                     href="#"
                     data-tabs-target="styled-profile1"
-                    className={`inline-block w-full p-3 rounded shadow border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-3 rounded shadow border-r border-gray-200  focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile1"
                         ? "bg-[#F0FFF0] text-PDCL-green font-bold border-[#B2D8B2]/50 border-t-[3px]"
                         : "bg-[#417D41] text-[#ffffff]"
-                    } "active focus:outline-none dark:bg-gray-700 dark:text-white"
+                    } "active focus:outline-none "
                         : ""
                     `}
                     aria-current="page"
@@ -283,15 +283,15 @@ const handleClick1 = () => {
                     Appoinment
                   </a>
                 </li>
-                <li class="w-full p-1 focus-within:z-10">
+                <li class="w-full p-1">
                   <a
                     href="#"
                     data-tabs-target="styled-profile2"
-                    className={`inline-block w-full p-3 rounded border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-3 rounded border-r border-gray-200  focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile2"
                       ? "bg-[#F0FFF0] text-PDCL-green font-bold border-[#B2D8B2]/50 border-t-[3px]"
                       : "bg-[#417D41] text-[#ffffff]"
-                    } "active focus:outline-none dark:bg-gray-700 dark:text-white"
+                    } "active focus:outline-none "
                         : ""
                     `}
                     aria-current="page"
@@ -305,17 +305,17 @@ const handleClick1 = () => {
 
             <div id="default-styled-tab-content">
               <div
-                className={` p-2 rounded bg-white dark:bg-gray-800 ${
+                className={` p-2 rounded bg-white ${
                   activeTab === "styled-profile" ? "" : "hidden"
                 }`}
                 id="styled-profile"
                 role="tabpanel"
                 aria-labelledby="profile-tab"
               >
-                <p class="text-sm text-gray-900 dark:text-gray-400">
+                <p class="text-sm text-gray-900">
                   <form className="max-w-7xl mx-auto">
                     <div className="grid md:grid-cols-9 md:gap-0">
-                      <div className="relative z-0 col-span-3 p-1 w-full mb-0 group">
+                      <div className="relative col-span-3 p-1 w-full mb-0 group">
                         <select
                           className="block py-2.5 px-0 w-full text-sm rounded-lg border-[#417D41]/50 border-[2px] focus:border-[3px] text-gray-900 bg-[#B2D8B2] pl-2   peer"
                           onChange={handleBranchChange1}
@@ -333,7 +333,7 @@ const handleClick1 = () => {
                           ))}
                         </select>
                       </div>
-                      <div className="relative z-0 w-full p-1 col-span-3 mb-0 group">
+                      <div className="relative w-full p-1 col-span-3 mb-0 group">
                         <select
                           className="block py-2.5 px-0 w-full text-sm rounded-lg border-[#417D41]/50 border-[2px] focus:border-[3px] text-gray-900 bg-[#B2D8B2] pl-2   peer"
                           onChange={handleSpecializationChange}
@@ -386,7 +386,7 @@ const handleClick1 = () => {
                           className="block py-2.5 px-0 w-full border-[#417D41]/50 border-[2px] focus:border-[3px] text-sm rounded-lg dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green  text-gray-900 bg-[#B2D8B2] placeholder-gray-900  peer pl-2"
                           required
                         />
-                        <section className="">
+                        <section className="relative z-10">
                           <ul className="">
                             {filteredDoctors.length > 0 && (
                               <li>
@@ -426,7 +426,7 @@ const handleClick1 = () => {
                 <p class="text-sm text-gray-900 dark:text-gray-400">
                   <form className="max-w-screen-xl mx-auto">
                     <div className="grid md:grid-cols-9 md:gap-1">
-                      <div className="relative z-0 col-span-9 w-full group">
+                      <div className="relative col-span-9 w-full group">
                         <Link
                           to="http://appointment.populardiagnostic.com/appointment"
                           target="_blank"
@@ -443,7 +443,7 @@ const handleClick1 = () => {
                         </Link>
                       </div>
 
-                      <div className="relative z-0 col-span-9 w-full  group">
+                      <div className="relative col-span-9 w-full  group">
                         <div className="flex flex-row w-full col-span-9">
                           <div className="flex w-full col-span-4 items-center">
                             {!isSearchVisible && (
@@ -478,7 +478,7 @@ const handleClick1 = () => {
                               </button>
                             )}
                             {isSearchVisible && (
-                              <div className="relative flex flex-row z-0 col-span-9 w-full  group">
+                              <div className="relative flex flex-row col-span-9 w-full  group">
                                 <form class=" w-full col-span-7 mr-2 mb-1">
                                   <label
                                     for="default-search"
@@ -551,7 +551,7 @@ const handleClick1 = () => {
                                   </div>
 
                                   {isSearchVisible && (
-                                    <div className="relative flex flex-row z-0 col-span-9 w-full group">
+                                    <div className="relative flex flex-row col-span-9 w-full group">
                                       <div className="flex flex-col space-y-2 mb-4">
                                         {messages.map((message, index) => (
                                           <div
@@ -584,7 +584,7 @@ const handleClick1 = () => {
                                   )}
                                 </form>
                                 <Link to="/#">
-                                  <div className="relative z-0 col-span-2 w-full  group">
+                                  <div className="relative col-span-2 w-full  group">
                                     <button
                                       type="button"
                                       className={`text-gray-600 w-full rounded block col-span-2 mb-0 h-[35px] hover:text-gray-900 border bg-gray-300 shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#417D41] font-ubuntu text-[16px] font-bold px-4  text-center  dark:border-[#417D41] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#417D41] ${
@@ -616,7 +616,7 @@ const handleClick1 = () => {
                 <p class="text-sm text-gray-900 dark:text-gray-400">
                   <form className="max-w-7xl mx-auto">
                     <div className="grid md:grid-cols-9 md:gap-1">
-                      <div className="relative z-0 w-full col-span-9 mb-1 group">
+                      <div className="relative w-full col-span-9 mb-1 group">
                         <select
                           value={selectedBranch}
                           onChange={handleBranchChange}
@@ -642,7 +642,7 @@ const handleClick1 = () => {
                           className="block py-2.5 px-0 w-full text-sm rounded-lg dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green  text-gray-900 bg-[#B2D8B2] placeholder-gray-900  peer pl-2"
                           required
                         />
-                        <section className="">
+                        <section className="relative z-10">
                           <ul className="">
                             {filteredServices.length > 0 && (
                               <div>

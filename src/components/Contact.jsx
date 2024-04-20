@@ -14,100 +14,104 @@ function Contact() {
       <Bottommenu />
 
       <div
-        className={`inset-0 justify-center pt-[150px] items-center mb-[20px]   text-center flex flex-wrap  text-white`}
-      >
+        className={`inset-0 justify-center pt-[150px] items-center mb-[20px]   text-center flex flex-wrap `}>
         <div className="max-w-7xl">
           <div className=" p-10  text-start">
-            <h2 className="mb-6  font-bold font-ubuntu text-center  text-[36px] uppercase text-gray-900 dark:text-white">
-              Contact Address
-            </h2>
+          <h1 className="text-slate-900/50 text-center font-ubuntu font-extrabold text-[36px]">
+                    DISCOVER{" "}
+                    <span className="text-[#417D41] font-ubuntu">POPULAR</span>
+                  </h1>
 
-            <p className="mb-4 text-center text-[24px]  text-gray-900">
+            <p className="mb-2 font-ubuntu text-center text-[24px]  text-gray-900">
               House #16, Road # 2, Dhanmondi R/A, Dhaka-1205, Bangladesh
             </p>
 
-            <p className="mb-4 text-center text-[24px]  text-gray-900">
+            <p className="mb-2 font-ubuntu text-center text-[24px]  text-gray-900">
               E-mail : info@populardiagnostic.com
             </p>
-            <p className="mb-4 text-center text-[24px]  text-gray-900">
+            <p className="mb-2 font-ubuntu text-center text-[24px]  text-gray-900">
               Phone : 09666 787801
             </p>
           </div>
         </div>
       </div>
       <div
-        className={`justify-center  items-center p-2 text-center flex flex-col  text-white`}
-      >
+        className={`justify-center  items-center p-2 text-center flex flex-col  text-white`}>
         <div className=" flex-col  max-w-7xl container sm:w-[80%] block items-stretch md:flex-row    mx-auto">
           <Card
             className="mx-auto w-full bg-gray-100/5 mt-[40px] shadow-2xl  rounded-[10px] max-w-7xl"
-            shadow={true}
-          >
+            shadow={true}>
             <form className="mt-1 mb-2 w-full p-5 max-w-7xl  sm:w-300">
               <div className="mb-1 flex flex-col gap-6">
                 <h5 className="text-[44px] p-5 font-ubuntu font-bold text-[#417D41]">
                   Send us a message
                 </h5>
-                <Typography
-                  variant="h6"
-                  color="blue-gray"
-                  className="-mb-3 text-[#417D41] text-start"
-                >
-                  Your Email
-                </Typography>
-                <Input
-                  size="lg"
-                  placeholder="name@mail.com"
-                  className=" !border-t-blue-gray-200 bg-white text-[#417D41] p-2 focus:!border-t-gray-900"
-                  labelProps={{
-                    className: "before:content-none after:content-none",
-                  }}
-                />
-                <Typography
-                  variant="h6"
-                  color="blue-gray"
-                  className="-mb-3 text-[#417D41] text-start"
-                >
-                  Your FullName
-                </Typography>
-                <Input
-                  size="lg"
-                  placeholder="Name"
-                  className=" !border-t-blue-gray-200 bg-white text-[#417D41] p-2 focus:!border-t-gray-900"
-                  labelProps={{
-                    className: "before:content-none after:content-none",
-                  }}
-                />
-                <Typography
-                  variant="h6"
-                  color="blue-gray"
-                  className="-mb-3 text-[#417D41] text-start"
-                >
-                  Your Mobile
-                </Typography>
-                <Input
-                  size="lg"
-                  placeholder="01712345678"
-                  className=" !border-t-blue-gray-200 bg-white text-[#417D41] p-2 focus:!border-t-gray-900"
-                  labelProps={{
-                    className: "before:content-none after:content-none",
-                  }}
-                />
-                <Typography
-                  variant="h6"
-                  color="blue-gray"
-                  className="-mb-3 text-[#417D41] text-start"
-                >
-                  Your Messages
-                </Typography>
-                <Input
-                  size="lg"
-                  placeholder="Write Support Queries"
-                  className=" !border-t-blue-gray-200 bg-white text-[#417D41] p-2 focus:!border-t-gray-900"
-                  labelProps={{
-                    className: "before:content-none after:content-none",
-                  }}
-                />
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <Typography
+                      variant="h6"
+                      color="blue-gray"
+                      className="text-[#417D41] text-start">
+                      Your Email
+                    </Typography>
+                    <Input
+                      size="lg"
+                      placeholder="name@mail.com"
+                      className=" !border-t-blue-gray-200 bg-white text-[#417D41] p-2 focus:!border-t-gray-900"
+                      labelProps={{
+                        className: "before:content-none after:content-none",
+                      }}
+                    />
+                  </div>
+                  <div>
+                  <Typography
+                    variant="h6"
+                    color="blue-gray"
+                    className=" text-[#417D41] text-start">
+                    Your FullName
+                  </Typography>
+                  <Input
+                    size="lg"
+                    placeholder="Name"
+                    className=" !border-t-blue-gray-200 bg-white text-[#417D41] p-2 focus:!border-t-gray-900"
+                    labelProps={{
+                      className: "before:content-none after:content-none",
+                    }}
+                  />
+                  </div>
+                  <div>
+                  <Typography
+                    variant="h6"
+                    color="blue-gray"
+                    className="text-[#417D41] text-start">
+                    Your Mobile
+                  </Typography>
+                  <Input
+                    size="lg"
+                    placeholder="01712345678"
+                    className=" !border-t-blue-gray-200 bg-white text-[#417D41] p-2 focus:!border-t-gray-900"
+                    labelProps={{
+                      className: "before:content-none after:content-none",
+                    }}
+                  />
+                  </div>
+                  <div>
+                  <Typography
+                    variant="h6"
+                    color="blue-gray"
+                    className=" text-[#417D41] text-start">
+                    Your Messages
+                  </Typography>
+                  <Input
+                    size="lg"
+                    placeholder="Write Support Queries"
+                    className=" !border-t-blue-gray-200 bg-white text-[#417D41] p-2 focus:!border-t-gray-900"
+                    labelProps={{
+                      className: "before:content-none after:content-none",
+                    }}
+                  />
+                  </div>
+                </div>
               </div>
 
               <Link to="/report">
@@ -121,8 +125,7 @@ function Contact() {
       </div>
 
       <div
-        className={`inset-0 justify-center items-center mb-[20px]  text-center flex flex-wrap  text-white`}
-      >
+        className={`inset-0 justify-center items-center mb-[20px]  text-center flex flex-wrap  text-white`}>
         <div className="flex-col  max-w-screen-xl container rounded sm:w-[80%]  block items-stretch md:flex-row  mt-[20px] mx-auto">
           <div className="relative flex flex-wrap p-2">
             <iframe
@@ -131,15 +134,13 @@ function Contact() {
               height="600"
               allowfullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
 
           <div className="w-full">
             <ul
               className="flex mb-0 ml-2 mr-2 list-none flex-wrap pt-1 pb-2 flex-row"
-              role="tablist"
-            >
+              role="tablist">
               <li className="-mb-px mr-2 last:mr-0 flex-auto text-center"></li>
             </ul>
           </div>

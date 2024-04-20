@@ -77,6 +77,9 @@ const Patient = () => {
       <Bottommenu />
       <div className="p-10 flex sm:w-[80%] flex-wrap mx-auto max-w-7xl">
         <div className="flex flex-col w-full  pt-[100px] pb-10">
+        <h2 className="text-gray-500/50 pb-2 text-center pl-2 text-[28px] font-bold font-ubuntu">
+        ONLINE REPORT DOWNLOAD 
+          </h2>
           <motion.input
             type="text"
             placeholder="Search branches..."

@@ -117,9 +117,9 @@ const Works = () => {
     <>
       <div className="fontFamily-ubuntu custom-gradient rounded-2xl shadow-top-2xl">
         <div className="mt-[-140px] py-24 sm:py-32">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto grid max-w-2xl grid-rows-1 border-[#417D41] border-[4px] rounded-2xl shadow-2xl mt-[-130px] pt-5 bg-[#B2D8B2] gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-rows-1">
-              <div className="lg:pr-8 lg:pt-4">
+          <div className=" mx-auto  max-w-7xl px-6 lg:px-8">
+            <div className="mx-auto  grid max-w-2xl grid-rows-1 border-[#417D41] border-[4px] rounded-2xl shadow-2xl mt-[-130px] pt-5 bg-[#B2D8B2] gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-rows-1">
+              <div className="inset-1 lg:pr-8 z-10 lg:pt-4">
                 <div className="w-full border-l-[5px] border-[#417D41] px-10 border-opacity-50 pl-2 text-start ml-3">
                   <h1 className="text-slate-900/50 font-ubuntu font-extrabold text-[28px]">
                     DISCOVER{" "}
