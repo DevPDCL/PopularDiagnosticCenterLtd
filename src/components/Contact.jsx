@@ -113,7 +113,6 @@ function Contact() {
                   </div>
                 </div>
               </div>
-
               <Link to="/report">
                 <Button className="mt-6 bg-[#417D41] " fullWidth>
                   SEND MESSAGES
