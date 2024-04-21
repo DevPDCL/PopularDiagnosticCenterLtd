@@ -13,7 +13,7 @@ const Home = () => {
                 <Layer />
              
             </div>
-            <div class="col-span-10  flex flex-wrap items-center justify-center z-10 p-5 gap-3 w-full bg-white">
+            <div class="col-span-10 overflow-hidden  flex flex-wrap items-center justify-center z-10 p-5 gap-3 w-full bg-white">
               <div class="w-[300px] h-[200px] p-6 bg-white border border-gray-600 rounded dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-600 dark:text-white">

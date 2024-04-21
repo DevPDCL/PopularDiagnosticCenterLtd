@@ -8,8 +8,8 @@ const Csample = () => {
           <div className="h-screen col-span-2">
             <Layer />
           </div>
-          <div class="col-span-10 flex flex-wrap  z-10 p-5 w-full bg-gray-100">
-            <div class="relative overflow-x-auto w-full p-5 shadow-md sm:rounded-lg">
+          <div class="col-span-10 flex flex-wrap  z-10 p-5 w-full bg-white">
+            <div class="relative overflow-x-auto w-full p-5  sm:rounded-lg">
               <div class="pb-4 bg-white p-5  dark:bg-gray-900">
                 <label for="table-search" class="sr-only">
                   Search
