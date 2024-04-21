@@ -3,12 +3,12 @@ import Layer from "./Layer";
 const Ccomplain = () => {
   return (
     <>
-      <section className="bg-gray-100 w-screen h-screen md:h-screen ">
+      <section className="bg-white w-screen h-screen md:h-screen ">
         <div class="grid grid-cols-12">
           <div className="h-screen col-span-2">
             <Layer />
           </div>
-          <div class="col-span-10 flex flex-wrap  z-10 p-5 w-full bg-gray-100">
+          <div class="col-span-10 flex flex-wrap  z-10 p-5 w-full bg-white">
             <div class="relative overflow-x-auto w-full p-5 shadow-md sm:rounded-lg">
               <div class="pb-4 bg-white p-5  dark:bg-gray-900">
                 <label for="table-search" class="sr-only">

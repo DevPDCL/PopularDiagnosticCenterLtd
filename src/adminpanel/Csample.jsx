@@ -3,7 +3,7 @@ import Layer from "./Layer";
 const Csample = () => {
   return (
     <>
-      <section className="bg-gray-100 w-screen h-screen md:h-screen ">
+      <section className="bg-white w-screen h-screen md:h-screen ">
         <div class="grid grid-cols-12">
           <div className="h-screen col-span-2">
             <Layer />
