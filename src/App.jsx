@@ -20,6 +20,13 @@ import {
   Patient,
   Director,
 } from "./components";
+import Home from "./adminpanel/Home";
+import Stats from "./adminpanel/Stats";
+import Layer from "./adminpanel/Layer";
+import Appointment from "./adminpanel/Appointment";
+import Csample from "./adminpanel/Csample";
+import Ccomplain from "./adminpanel/Ccomplain";
+import Management from "./adminpanel/Management";
 const App = () => {
   return (
     <>
@@ -43,6 +50,13 @@ const App = () => {
           <Route path="/health" element={<Health />} />
           <Route path="/details" element={<Details />} />
           <Route path="/about" element={<About />} />
+          <Route path="/layer" element={<Layer />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/stats" element={<Stats />} />
+          <Route path="/appointment" element={<Appointment />} />
+          <Route path="/csample" element={<Csample />} />
+          <Route path="/ccomplain" element={<Ccomplain />} />
+          <Route path="/management" element={<Management />} />
         </Routes>
       </BrowserRouter>
     </>

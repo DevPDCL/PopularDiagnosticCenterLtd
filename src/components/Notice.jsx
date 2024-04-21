@@ -32,7 +32,7 @@ const ProjectCard = (
                 <img
                   src={noticeImage}
                   alt="project_image"
-                  className="w-full h-[150px] rounded-md object-cover sm:w-[299px] opacity-95"
+                  className="w-full h-[150px] p-2 rounded object-cover sm:w-[299px] opacity-95"
                 />
               </div>
             </PopoverHandler>
