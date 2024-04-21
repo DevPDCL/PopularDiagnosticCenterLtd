@@ -91,6 +91,10 @@
         {
             "src": "/csample",
             "dest": "/"
+        },
+        {
+            "src": "/management",
+            "dest": "/"
         }
         
         
