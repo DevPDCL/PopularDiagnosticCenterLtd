@@ -383,7 +383,7 @@ const handleClick1 = () => {
                           name="floating_first_name"
                           placeholder="Doctor Name"
                           id="floating_first_name"
-                          className="block py-2.5 px-0 w-full border-[#417D41]/50 border-[2px] focus:border-[3px] text-sm rounded-lg dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green  text-gray-900 bg-[#B2D8B2] placeholder-gray-900  peer pl-2"
+                          className="block py-2.5 px-0 w-full border-[#417D41]/50 border-[2px] focus:border-[3px] text-sm rounded-lg focus:outline-none focus:ring-0 focus:border-PDCL-green  text-gray-900 bg-[#B2D8B2] placeholder-gray-900  peer pl-2"
                           required
                         />
                         <section className="relative z-10">
@@ -416,14 +416,14 @@ const handleClick1 = () => {
                 </p>
               </div>
               <div
-                className={` p-2 rounded bg-white dark:bg-gray-800 ${
+                className={` p-2 rounded bg-white ${
                   activeTab === "styled-profile1" ? "" : "hidden"
                 }`}
                 id="styled-profile1"
                 role="tabpanel"
                 aria-labelledby="profile-tab"
               >
-                <p class="text-sm text-gray-900 dark:text-gray-400">
+                <p class="text-sm text-gray-900 ">
                   <form className="max-w-screen-xl mx-auto">
                     <div className="grid md:grid-cols-9 md:gap-1">
                       <div className="relative col-span-9 w-full group">
@@ -434,7 +434,7 @@ const handleClick1 = () => {
                         >
                           <button
                             type="button"
-                            className="text-gray-600 w-full rounded block col-span-7 mb-2 h-[43px] hover:text-gray-900 border-[#417D41]/50 border-[2px] focus:border-[3px] bg-[#B2D8B2] shadow-2xl focus:ring-4 focus:outline-none focus:ring-[#417D41] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#417D41] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#417D41]"
+                            className="text-gray-600 w-full rounded block col-span-7 mb-2 h-[43px] hover:text-gray-900 border-[#417D41]/50 border-[2px] focus:border-[3px] bg-[#B2D8B2] shadow-2xl focus:ring-4 focus:outline-none focus:ring-[#417D41] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center "
                             onClick={handleClick1}
                           >
                             Make Appointment{" "}
@@ -482,13 +482,13 @@ const handleClick1 = () => {
                                 <form class=" w-full col-span-7 mr-2 mb-1">
                                   <label
                                     for="default-search"
-                                    class="mb-1 text-sm font-medium text-gray-900 sr-only dark:text-white"
+                                    class="mb-1 text-sm font-medium text-gray-900 sr-only"
                                   ></label>
 
                                   <div class="relative">
                                     <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                                       <svg
-                                        class="w-4 h-4 text-gray-500 dark:text-gray-400"
+                                        class="w-4 h-4 text-gray-500 "
                                         aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="none"
@@ -510,7 +510,7 @@ const handleClick1 = () => {
                                         <input
                                           type="search"
                                           id="default-search"
-                                          class="block w-full p-2 pr-10 white-space:pre-wrap col-span-9 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                          class="block w-full p-2 pr-10 white-space:pre-wrap col-span-9 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 "
                                           placeholder="Chat With PDCL HUMAN Consultant"
                                           value={inputMessage}
                                           onChange={(e) =>
@@ -521,7 +521,7 @@ const handleClick1 = () => {
                                         />
                                         <button
                                           type="submit"
-                                          class="text-white absolute  end-0 bottom-1 top-1 m-1 bg-[#417D41] hover:bg-blue-800  font-medium rounded text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700"
+                                          class="text-white absolute  end-0 bottom-1 top-1 m-1 bg-[#417D41] hover:bg-blue-800  font-medium rounded text-sm px-4 py-2 "
                                         >
                                           Send
                                         </button>
@@ -531,7 +531,7 @@ const handleClick1 = () => {
                                         <input
                                           type="search"
                                           id="default-search"
-                                          class="block w-full p-2 pr-10 white-space:pre-wrap col-span-9 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                          class="block w-full p-2 pr-10 white-space:pre-wrap col-span-9 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 "
                                           placeholder="Chat With PDCL AI Consultant"
                                           value={inputMessage}
                                           onChange={(e) =>
@@ -542,7 +542,7 @@ const handleClick1 = () => {
                                         />
                                         <button
                                           type="submit"
-                                          class="text-white absolute end-0  bottom-0 top-0 m-1 bg-[#417D41] hover:bg-blue-800  font-medium rounded text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 "
+                                          class="text-white absolute end-0  bottom-0 top-0 m-1 bg-[#417D41] hover:bg-blue-800  font-medium rounded text-sm px-4 py-2"
                                         >
                                           Send
                                         </button>{" "}
@@ -587,7 +587,7 @@ const handleClick1 = () => {
                                   <div className="relative col-span-2 w-full  group">
                                     <button
                                       type="button"
-                                      className={`text-gray-600 w-full rounded block col-span-2 mb-0 h-[35px] hover:text-gray-900 border bg-gray-300 shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#417D41] font-ubuntu text-[16px] font-bold px-4  text-center  dark:border-[#417D41] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#417D41] ${
+                                      className={`text-gray-600 w-full rounded block col-span-2 mb-0 h-[35px] hover:text-gray-900 border bg-gray-300 shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#417D41] font-ubuntu text-[16px] font-bold px-4  text-center   ${
                                         isVisible ? "" : "hidden"
                                       }`}
                                       onClick={(handleClick, handleSearchClick)}
@@ -606,14 +606,14 @@ const handleClick1 = () => {
                 </p>
               </div>
               <div
-                className={` p-2 rounded bg-white dark:bg-gray-800 ${
+                className={` p-2 rounded bg-white ${
                   activeTab === "styled-profile2" ? "" : "hidden"
                 }`}
                 id="styled-profile2"
                 role="tabpanel"
                 aria-labelledby="profile-tab"
               >
-                <p class="text-sm text-gray-900 dark:text-gray-400">
+                <p class="text-sm text-gray-900 ">
                   <form className="max-w-7xl mx-auto">
                     <div className="grid md:grid-cols-9 md:gap-1">
                       <div className="relative w-full col-span-9 mb-1 group">
@@ -639,7 +639,7 @@ const handleClick1 = () => {
                           name="floating_first_name"
                           placeholder="Test Name"
                           id="floating_first_name"
-                          className="block py-2.5 px-0 w-full text-sm rounded-lg dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green  text-gray-900 bg-[#B2D8B2] placeholder-gray-900  peer pl-2"
+                          className="block py-2.5 px-0 w-full text-sm rounded-lg focus:outline-none focus:ring-0 focus:border-PDCL-green  text-gray-900 bg-[#B2D8B2] placeholder-gray-900  peer pl-2"
                           required
                         />
                         <section className="relative z-10">
